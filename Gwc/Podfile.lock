@@ -1,0 +1,62 @@
+PODS:
+  - AFDownloadRequestOperation (2.0.1):
+    - AFNetworking (~> 2.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CustomIOSAlertView (0.9.3)
+  - EGOTableViewPullRefreshAndLoadMore (1.0.4)
+  - Masonry (0.6.4)
+  - RDVTabBarController (1.1.9)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - SVProgressHUD (2.0.3)
+  - Toast (2.4)
+  - UITableView+FDTemplateLayoutCell (1.4)
+
+DEPENDENCIES:
+  - AFDownloadRequestOperation (~> 2.0.1)
+  - AFNetworking (~> 2.0)
+  - CustomIOSAlertView (~> 0.9.3)
+  - EGOTableViewPullRefreshAndLoadMore (~> 1.0.4)
+  - Masonry (~> 0.6.4)
+  - RDVTabBarController
+  - SDWebImage (~> 3.7.1)
+  - SVProgressHUD
+  - Toast (~> 2.4)
+  - UITableView+FDTemplateLayoutCell (~> 1.4)
+
+SPEC CHECKSUMS:
+  AFDownloadRequestOperation: 748a1643423e1ddb23f2178f778087d4f0ae8ac7
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  CustomIOSAlertView: 94d2401e34fcfb0ac0134679d6947f5e251b0446
+  EGOTableViewPullRefreshAndLoadMore: 118a0824590db042d42e08fcc442b93cebf15e73
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  Toast: 0773b8fc0e97352ca6054517bec7ebdd4110029d
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
+
+PODFILE CHECKSUM: 75fb23051bdcbefd9bc1772ea95463d9968f510d
+
+COCOAPODS: 1.0.1

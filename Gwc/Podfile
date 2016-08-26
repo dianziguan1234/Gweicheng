@@ -1,0 +1,15 @@
+platform :ios, '7.0'
+inhibit_all_warnings!
+
+target ‘Gwc’ do
+pod 'Masonry', '~> 0.6.4'
+pod 'SDWebImage', '~> 3.7.1’
+pod 'UITableView+FDTemplateLayoutCell', '~> 1.4'
+pod 'EGOTableViewPullRefreshAndLoadMore', '~> 1.0.4'
+pod 'RDVTabBarController'
+pod 'Toast', '~> 2.4'
+pod 'AFNetworking', '~> 2.0'
+pod 'AFDownloadRequestOperation', '~> 2.0.1'
+pod 'CustomIOSAlertView', '~> 0.9.3'
+pod 'SVProgressHUD'
+end
