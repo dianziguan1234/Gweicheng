@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "DYRootViewController.h"
+#import "LMNavigationController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,9 +17,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:COLOR_SYSTEM_WHITE}];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [[DYRootViewController alloc] init];
+    LMNavigationController *navi =[[LMNavigationController alloc] initWithRootViewController:[[DYRootViewController alloc] init]];
+    self.window.rootViewController = navi;
     [self.window makeKeyAndVisible];
     return YES;
 }
