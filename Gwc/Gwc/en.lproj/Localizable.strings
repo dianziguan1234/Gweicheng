@@ -1,0 +1,36 @@
+/* 
+  Localizable.strings
+  LawMonkey
+
+  Created by 刘彬 on 16/8/21.
+  Copyright © 2016年 AiFa. All rights reserved.
+*/
+
+//UI
+"ui.pullDownToRefresh" = "Pull to refresh";
+"ui.releaseToRefresh" = "Release to refresh";
+"ui.refreshing" = "Refreshing...";
+"ui.clickOrPull" = "Click or pull up to download more";
+"ui.downloading" = "Downloading more...";
+"ui.downloadComplete" = "Download complete";
+"ui.pullUpToRefresh" = "Pull up to download more";
+"ui.releaseToDownload" = "Release to download";
+"ui.lastUpdate" = "Last update:";
+"ui.lastUpdateNoRecords" = "Last update: no records";
+"ui.today" = "HH:mm a";
+
+//NSDateCategory
+"NSDateCategory.text1" = "one minute";
+"NSDateCategory.text2" = "%.f minutes ago";
+"NSDateCategory.text3" = "%.f hours ago";
+"NSDateCategory.text4" = "%.f days ago";
+"NSDateCategory.text5" = "M-d";
+"NSDateCategory.text6" = "%.f years ago";
+"NSDateCategory.text7" = "M-d %@";
+"NSDateCategory.text8" = "M-d HH:mm";
+"NSDateCategory.text9" = "aa hh:mm";
+"NSDateCategory.text10" = "aa hh:mm";
+"NSDateCategory.text11" = "aa hh:mm";
+"NSDateCategory.text12" = "aa hh:mm";
+"NSDateCategory.text13" = "M-d HH:mm";
+"NSDateCategory.text14" = "today %@";

@@ -17,6 +17,7 @@
 #import "DeviceMacro.h"
 #import "GlobalConfigMacro.h"
 #import "UIConfigMarco.h"
+#import "CategoryMarco.h"
+#import "PodsMarco.h"
 #endif
-
 #endif /* PrefixHeader_pch */
