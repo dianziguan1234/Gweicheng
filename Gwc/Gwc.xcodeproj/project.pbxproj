@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		181883991D70107B0075E42E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181883981D70107B0075E42E /* main.m */; };
-		1818839C1D70107B0075E42E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1818839B1D70107B0075E42E /* AppDelegate.m */; };
 		181883A41D70107B0075E42E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181883A31D70107B0075E42E /* Assets.xcassets */; };
 		181883B21D70107B0075E42E /* GwcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181883B11D70107B0075E42E /* GwcTests.m */; };
 		181883BD1D70107B0075E42E /* GwcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181883BC1D70107B0075E42E /* GwcUITests.m */; };
-		181883CC1D70110A0075E42E /* DYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181883CB1D70110A0075E42E /* DYRootViewController.m */; };
+		18B111841D701D7300328ED6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B111801D701D7300328ED6 /* AppDelegate.m */; };
+		18B111851D701D7300328ED6 /* DYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B111831D701D7300328ED6 /* DYRootViewController.m */; };
 		65253CABD2CEFB668E4711A2 /* libPods-Gwc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73427A43FCDE728FD8E50E46 /* libPods-Gwc.a */; };
 /* End PBXBuildFile section */
 
@@ -38,8 +38,6 @@
 		0C1F445CD30795E391ED7DF8 /* Pods-Gwc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gwc.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gwc/Pods-Gwc.release.xcconfig"; sourceTree = "<group>"; };
 		181883941D70107B0075E42E /* Gwc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gwc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181883981D70107B0075E42E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1818839A1D70107B0075E42E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1818839B1D70107B0075E42E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		181883A31D70107B0075E42E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		181883A81D70107B0075E42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		181883AD1D70107B0075E42E /* GwcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GwcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,8 +46,14 @@
 		181883B81D70107B0075E42E /* GwcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GwcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181883BC1D70107B0075E42E /* GwcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GwcUITests.m; sourceTree = "<group>"; };
 		181883BE1D70107B0075E42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		181883CA1D70110A0075E42E /* DYRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYRootViewController.h; sourceTree = "<group>"; };
-		181883CB1D70110A0075E42E /* DYRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYRootViewController.m; sourceTree = "<group>"; };
+		18B1117F1D701D7300328ED6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18B111801D701D7300328ED6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18B111821D701D7300328ED6 /* DYRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYRootViewController.h; sourceTree = "<group>"; };
+		18B111831D701D7300328ED6 /* DYRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYRootViewController.m; sourceTree = "<group>"; };
+		18B1118C1D701F5D00328ED6 /* DeviceMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceMacro.h; sourceTree = "<group>"; };
+		18B1118D1D7021B400328ED6 /* GlobalConfigMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalConfigMacro.h; sourceTree = "<group>"; };
+		18B1118E1D7023B100328ED6 /* UIConfigMarco.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIConfigMarco.h; sourceTree = "<group>"; };
+		18B111941D702C3C00328ED6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		73427A43FCDE728FD8E50E46 /* libPods-Gwc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Gwc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -104,10 +108,14 @@
 		181883961D70107B0075E42E /* Gwc */ = {
 			isa = PBXGroup;
 			children = (
-				1818839A1D70107B0075E42E /* AppDelegate.h */,
-				1818839B1D70107B0075E42E /* AppDelegate.m */,
-				181883CA1D70110A0075E42E /* DYRootViewController.h */,
-				181883CB1D70110A0075E42E /* DYRootViewController.m */,
+				18B1117E1D701D7300328ED6 /* AppDelegate */,
+				18B111811D701D7300328ED6 /* RootVC */,
+				18B111861D701EDF00328ED6 /* Macro */,
+				18B111881D701EDF00328ED6 /* ThirdPart */,
+				18B111871D701EDF00328ED6 /* Model */,
+				18B111891D701EDF00328ED6 /* View */,
+				18B1118A1D701EDF00328ED6 /* ViewController */,
+				18B1118B1D701EDF00328ED6 /* ViewModel */,
 				181883A31D70107B0075E42E /* Assets.xcassets */,
 				181883A81D70107B0075E42E /* Info.plist */,
 				181883971D70107B0075E42E /* Supporting Files */,
@@ -119,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				181883981D70107B0075E42E /* main.m */,
+				18B111941D702C3C00328ED6 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,6 +148,69 @@
 				181883BE1D70107B0075E42E /* Info.plist */,
 			);
 			path = GwcUITests;
+			sourceTree = "<group>";
+		};
+		18B1117E1D701D7300328ED6 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				18B1117F1D701D7300328ED6 /* AppDelegate.h */,
+				18B111801D701D7300328ED6 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		18B111811D701D7300328ED6 /* RootVC */ = {
+			isa = PBXGroup;
+			children = (
+				18B111821D701D7300328ED6 /* DYRootViewController.h */,
+				18B111831D701D7300328ED6 /* DYRootViewController.m */,
+			);
+			path = RootVC;
+			sourceTree = "<group>";
+		};
+		18B111861D701EDF00328ED6 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				18B1118C1D701F5D00328ED6 /* DeviceMacro.h */,
+				18B1118D1D7021B400328ED6 /* GlobalConfigMacro.h */,
+				18B1118E1D7023B100328ED6 /* UIConfigMarco.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		18B111871D701EDF00328ED6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18B111881D701EDF00328ED6 /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdPart;
+			sourceTree = "<group>";
+		};
+		18B111891D701EDF00328ED6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18B1118A1D701EDF00328ED6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		18B1118B1D701EDF00328ED6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		AF36AEC7AF2E02C07A645CF7 /* Pods */ = {
@@ -338,8 +410,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1818839C1D70107B0075E42E /* AppDelegate.m in Sources */,
-				181883CC1D70110A0075E42E /* DYRootViewController.m in Sources */,
+				18B111841D701D7300328ED6 /* AppDelegate.m in Sources */,
+				18B111851D701D7300328ED6 /* DYRootViewController.m in Sources */,
 				181883991D70107B0075E42E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,6 +475,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -445,6 +519,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -465,6 +541,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/apple/Gweicheng/Gwc/Gwc/PrefixHeader.pch;
 				INFOPLIST_FILE = Gwc/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -481,6 +559,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/apple/Gweicheng/Gwc/Gwc/PrefixHeader.pch;
 				INFOPLIST_FILE = Gwc/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
