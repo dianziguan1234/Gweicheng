@@ -101,6 +101,20 @@
 		18B112AC1D704ADD00328ED6 /* YTKNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112A11D704ADD00328ED6 /* YTKNetworkConfig.m */; };
 		18B112AD1D704ADD00328ED6 /* YTKNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112A31D704ADD00328ED6 /* YTKNetworkPrivate.m */; };
 		18B112AE1D704ADD00328ED6 /* YTKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112A51D704ADD00328ED6 /* YTKRequest.m */; };
+		18B112D01D704C6800328ED6 /* NBAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112B21D704C6800328ED6 /* NBAlertController.m */; };
+		18B112D11D704C6800328ED6 /* MultiURLImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112B51D704C6800328ED6 /* MultiURLImageScrollView.m */; };
+		18B112D21D704C6800328ED6 /* SingleURLImageZoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112B71D704C6800328ED6 /* SingleURLImageZoomScrollView.m */; };
+		18B112D31D704C6800328ED6 /* PagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112BA1D704C6800328ED6 /* PagerView.m */; };
+		18B112D41D704C6800328ED6 /* BasePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112BD1D704C6800328ED6 /* BasePickerView.m */; };
+		18B112D51D704C6800328ED6 /* DatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112BF1D704C6800328ED6 /* DatePickerView.m */; };
+		18B112D61D704C6800328ED6 /* DoublePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112C11D704C6800328ED6 /* DoublePickerView.m */; };
+		18B112D71D704C6800328ED6 /* MultiPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112C31D704C6800328ED6 /* MultiPickerView.m */; };
+		18B112D81D704C6800328ED6 /* SinglePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112C51D704C6800328ED6 /* SinglePickerView.m */; };
+		18B112D91D704C6800328ED6 /* CycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112C81D704C6800328ED6 /* CycleScrollView.m */; };
+		18B112DA1D704C6800328ED6 /* PageControllView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112CB1D704C6800328ED6 /* PageControllView.m */; };
+		18B112DB1D704C6800328ED6 /* SegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112CD1D704C6800328ED6 /* SegmentedControl.m */; };
+		18B112DC1D704C6800328ED6 /* SegmentedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112CF1D704C6800328ED6 /* SegmentedScrollView.m */; };
+		18B112DF1D704E3100328ED6 /* UIViewController+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112DE1D704E3100328ED6 /* UIViewController+Toast.m */; };
 		65253CABD2CEFB668E4711A2 /* libPods-Gwc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73427A43FCDE728FD8E50E46 /* libPods-Gwc.a */; };
 /* End PBXBuildFile section */
 
@@ -309,6 +323,34 @@
 		18B112A31D704ADD00328ED6 /* YTKNetworkPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkPrivate.m; sourceTree = "<group>"; };
 		18B112A41D704ADD00328ED6 /* YTKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKRequest.h; sourceTree = "<group>"; };
 		18B112A51D704ADD00328ED6 /* YTKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKRequest.m; sourceTree = "<group>"; };
+		18B112B11D704C6800328ED6 /* NBAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBAlertController.h; sourceTree = "<group>"; };
+		18B112B21D704C6800328ED6 /* NBAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBAlertController.m; sourceTree = "<group>"; };
+		18B112B41D704C6800328ED6 /* MultiURLImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiURLImageScrollView.h; sourceTree = "<group>"; };
+		18B112B51D704C6800328ED6 /* MultiURLImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiURLImageScrollView.m; sourceTree = "<group>"; };
+		18B112B61D704C6800328ED6 /* SingleURLImageZoomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleURLImageZoomScrollView.h; sourceTree = "<group>"; };
+		18B112B71D704C6800328ED6 /* SingleURLImageZoomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleURLImageZoomScrollView.m; sourceTree = "<group>"; };
+		18B112B91D704C6800328ED6 /* PagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagerView.h; sourceTree = "<group>"; };
+		18B112BA1D704C6800328ED6 /* PagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagerView.m; sourceTree = "<group>"; };
+		18B112BC1D704C6800328ED6 /* BasePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePickerView.h; sourceTree = "<group>"; };
+		18B112BD1D704C6800328ED6 /* BasePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePickerView.m; sourceTree = "<group>"; };
+		18B112BE1D704C6800328ED6 /* DatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerView.h; sourceTree = "<group>"; };
+		18B112BF1D704C6800328ED6 /* DatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerView.m; sourceTree = "<group>"; };
+		18B112C01D704C6800328ED6 /* DoublePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoublePickerView.h; sourceTree = "<group>"; };
+		18B112C11D704C6800328ED6 /* DoublePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoublePickerView.m; sourceTree = "<group>"; };
+		18B112C21D704C6800328ED6 /* MultiPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiPickerView.h; sourceTree = "<group>"; };
+		18B112C31D704C6800328ED6 /* MultiPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiPickerView.m; sourceTree = "<group>"; };
+		18B112C41D704C6800328ED6 /* SinglePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglePickerView.h; sourceTree = "<group>"; };
+		18B112C51D704C6800328ED6 /* SinglePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglePickerView.m; sourceTree = "<group>"; };
+		18B112C71D704C6800328ED6 /* CycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleScrollView.h; sourceTree = "<group>"; };
+		18B112C81D704C6800328ED6 /* CycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleScrollView.m; sourceTree = "<group>"; };
+		18B112CA1D704C6800328ED6 /* PageControllView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageControllView.h; sourceTree = "<group>"; };
+		18B112CB1D704C6800328ED6 /* PageControllView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageControllView.m; sourceTree = "<group>"; };
+		18B112CC1D704C6800328ED6 /* SegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentedControl.h; sourceTree = "<group>"; };
+		18B112CD1D704C6800328ED6 /* SegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentedControl.m; sourceTree = "<group>"; };
+		18B112CE1D704C6800328ED6 /* SegmentedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentedScrollView.h; sourceTree = "<group>"; };
+		18B112CF1D704C6800328ED6 /* SegmentedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentedScrollView.m; sourceTree = "<group>"; };
+		18B112DD1D704E3100328ED6 /* UIViewController+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Toast.h"; sourceTree = "<group>"; };
+		18B112DE1D704E3100328ED6 /* UIViewController+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Toast.m"; sourceTree = "<group>"; };
 		73427A43FCDE728FD8E50E46 /* libPods-Gwc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Gwc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -450,6 +492,7 @@
 		18B111881D701EDF00328ED6 /* ThirdPart */ = {
 			isa = PBXGroup;
 			children = (
+				18B112AF1D704C6800328ED6 /* Widget */,
 				18B112931D704ADD00328ED6 /* YTKNetwork */,
 				18B1128F1D704A4800328ED6 /* AppGuideManager */,
 				18B1128B1D70496A00328ED6 /* Timestamp */,
@@ -646,6 +689,8 @@
 			children = (
 				18B112381D70407E00328ED6 /* UIViewController+NavigationBar.h */,
 				18B112391D70407E00328ED6 /* UIViewController+NavigationBar.m */,
+				18B112DD1D704E3100328ED6 /* UIViewController+Toast.h */,
+				18B112DE1D704E3100328ED6 /* UIViewController+Toast.m */,
 			);
 			path = UIViewController;
 			sourceTree = "<group>";
@@ -809,6 +854,87 @@
 				18B112A51D704ADD00328ED6 /* YTKRequest.m */,
 			);
 			path = YTKNetwork;
+			sourceTree = "<group>";
+		};
+		18B112AF1D704C6800328ED6 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				18B112B01D704C6800328ED6 /* AlertController */,
+				18B112B31D704C6800328ED6 /* ImageScrollView */,
+				18B112B81D704C6800328ED6 /* PageNumber */,
+				18B112BB1D704C6800328ED6 /* PickerView */,
+				18B112C61D704C6800328ED6 /* PictureContainer */,
+				18B112C91D704C6800328ED6 /* SegmentedControl */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		18B112B01D704C6800328ED6 /* AlertController */ = {
+			isa = PBXGroup;
+			children = (
+				18B112B11D704C6800328ED6 /* NBAlertController.h */,
+				18B112B21D704C6800328ED6 /* NBAlertController.m */,
+			);
+			path = AlertController;
+			sourceTree = "<group>";
+		};
+		18B112B31D704C6800328ED6 /* ImageScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				18B112B41D704C6800328ED6 /* MultiURLImageScrollView.h */,
+				18B112B51D704C6800328ED6 /* MultiURLImageScrollView.m */,
+				18B112B61D704C6800328ED6 /* SingleURLImageZoomScrollView.h */,
+				18B112B71D704C6800328ED6 /* SingleURLImageZoomScrollView.m */,
+			);
+			path = ImageScrollView;
+			sourceTree = "<group>";
+		};
+		18B112B81D704C6800328ED6 /* PageNumber */ = {
+			isa = PBXGroup;
+			children = (
+				18B112B91D704C6800328ED6 /* PagerView.h */,
+				18B112BA1D704C6800328ED6 /* PagerView.m */,
+			);
+			path = PageNumber;
+			sourceTree = "<group>";
+		};
+		18B112BB1D704C6800328ED6 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				18B112BC1D704C6800328ED6 /* BasePickerView.h */,
+				18B112BD1D704C6800328ED6 /* BasePickerView.m */,
+				18B112BE1D704C6800328ED6 /* DatePickerView.h */,
+				18B112BF1D704C6800328ED6 /* DatePickerView.m */,
+				18B112C01D704C6800328ED6 /* DoublePickerView.h */,
+				18B112C11D704C6800328ED6 /* DoublePickerView.m */,
+				18B112C21D704C6800328ED6 /* MultiPickerView.h */,
+				18B112C31D704C6800328ED6 /* MultiPickerView.m */,
+				18B112C41D704C6800328ED6 /* SinglePickerView.h */,
+				18B112C51D704C6800328ED6 /* SinglePickerView.m */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		18B112C61D704C6800328ED6 /* PictureContainer */ = {
+			isa = PBXGroup;
+			children = (
+				18B112C71D704C6800328ED6 /* CycleScrollView.h */,
+				18B112C81D704C6800328ED6 /* CycleScrollView.m */,
+			);
+			path = PictureContainer;
+			sourceTree = "<group>";
+		};
+		18B112C91D704C6800328ED6 /* SegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				18B112CA1D704C6800328ED6 /* PageControllView.h */,
+				18B112CB1D704C6800328ED6 /* PageControllView.m */,
+				18B112CC1D704C6800328ED6 /* SegmentedControl.h */,
+				18B112CD1D704C6800328ED6 /* SegmentedControl.m */,
+				18B112CE1D704C6800328ED6 /* SegmentedScrollView.h */,
+				18B112CF1D704C6800328ED6 /* SegmentedScrollView.m */,
+			);
+			path = SegmentedControl;
 			sourceTree = "<group>";
 		};
 		AF36AEC7AF2E02C07A645CF7 /* Pods */ = {
@@ -1039,12 +1165,15 @@
 				18B1126A1D70415400328ED6 /* MJRefreshComponent.m in Sources */,
 				18B112A91D704ADD00328ED6 /* YTKChainRequest.m in Sources */,
 				18B112221D703ED600328ED6 /* NBTableViewSection.m in Sources */,
+				18B112D01D704C6800328ED6 /* NBAlertController.m in Sources */,
 				18B112691D70415400328ED6 /* MJRefreshBackFooter.m in Sources */,
+				18B112DA1D704C6800328ED6 /* PageControllView.m in Sources */,
 				18B1128A1D70480900328ED6 /* UIImage+animatedGIF.m in Sources */,
 				18B1121E1D703ED600328ED6 /* NBTableViewCellStyle.m in Sources */,
 				18B112701D70415400328ED6 /* MJRefreshBackGifFooter.m in Sources */,
 				18B1121D1D703ED600328ED6 /* NBTableViewCell.m in Sources */,
 				18B111D41D703C4500328ED6 /* UITextField+NBUIKit.m in Sources */,
+				18B112D71D704C6800328ED6 /* MultiPickerView.m in Sources */,
 				18B111D71D703C4500328ED6 /* UIView+NBUIKit.m in Sources */,
 				18B111DB1D703C4500328ED6 /* NSObject+GCD.m in Sources */,
 				18B111CD1D703C4500328ED6 /* NSString+NBUIKit.m in Sources */,
@@ -1055,17 +1184,22 @@
 				18B112721D70415400328ED6 /* MJRefreshBackStateFooter.m in Sources */,
 				18B112171D703ED600328ED6 /* NBSectionCell.m in Sources */,
 				18B111D61D703C4500328ED6 /* UIView+MGEasyFrame.m in Sources */,
+				18B112D41D704C6800328ED6 /* BasePickerView.m in Sources */,
 				18B112681D70415400328ED6 /* MJRefreshAutoFooter.m in Sources */,
 				18B111CF1D703C4500328ED6 /* UIButton+NBUIKit.m in Sources */,
+				18B112D91D704C6800328ED6 /* CycleScrollView.m in Sources */,
 				18B111D91D703C4500328ED6 /* NSNotificationCenter+Eazy.m in Sources */,
+				18B112D81D704C6800328ED6 /* SinglePickerView.m in Sources */,
 				18B112AC1D704ADD00328ED6 /* YTKNetworkConfig.m in Sources */,
 				18B112711D70415400328ED6 /* MJRefreshBackNormalFooter.m in Sources */,
+				18B112D21D704C6800328ED6 /* SingleURLImageZoomScrollView.m in Sources */,
 				18B111841D701D7300328ED6 /* AppDelegate.m in Sources */,
 				18B112191D703ED600328ED6 /* NBTextFieldCell.m in Sources */,
 				18B111CE1D703C4500328ED6 /* UIAlertView+NBUIKit.m in Sources */,
 				18B1127A1D70415400328ED6 /* UIView+MJExtension.m in Sources */,
 				18B112AB1D704ADD00328ED6 /* YTKNetworkAgent.m in Sources */,
 				18B112731D70415400328ED6 /* MJRefreshGifHeader.m in Sources */,
+				18B112D51D704C6800328ED6 /* DatePickerView.m in Sources */,
 				18B111D11D703C4500328ED6 /* UIImage+NBUIKit.m in Sources */,
 				18B1121F1D703ED600328ED6 /* NBTableViewController+FDAutoLayoutCell.m in Sources */,
 				18B112791D70415400328ED6 /* UIScrollView+MJRefresh.m in Sources */,
@@ -1077,20 +1211,25 @@
 				18B1123A1D70407E00328ED6 /* UIViewController+NavigationBar.m in Sources */,
 				181883991D70107B0075E42E /* main.m in Sources */,
 				18B111DA1D703C4500328ED6 /* NSObject+AssociatedObjects.m in Sources */,
+				18B112D11D704C6800328ED6 /* MultiURLImageScrollView.m in Sources */,
 				18B112321D703F6C00328ED6 /* NBBaseListModel.m in Sources */,
 				18B111E01D703C4500328ED6 /* UIApplication+AppInfo.m in Sources */,
 				18B112771D70415400328ED6 /* MJRefreshConst.m in Sources */,
 				18B111D31D703C4500328ED6 /* UILabel+NBUIKit.m in Sources */,
 				18B112A61D704ADD00328ED6 /* YTKBaseRequest.m in Sources */,
+				18B112D31D704C6800328ED6 /* PagerView.m in Sources */,
+				18B112DF1D704E3100328ED6 /* UIViewController+Toast.m in Sources */,
 				18B111D51D703C4500328ED6 /* UITextView+Placeholder.m in Sources */,
 				18B112161D703ED600328ED6 /* NBImageCell.m in Sources */,
 				18B1121C1D703ED600328ED6 /* NBTableViewAdaptor.m in Sources */,
+				18B112DC1D704C6800328ED6 /* SegmentedScrollView.m in Sources */,
 				18B1121A1D703ED600328ED6 /* NBTextViewCell.m in Sources */,
 				18B112A81D704ADD00328ED6 /* YTKBatchRequestAgent.m in Sources */,
 				18B112781D70415400328ED6 /* UIScrollView+MJExtension.m in Sources */,
 				18B111971D703BF800328ED6 /* NBNavigationController.m in Sources */,
 				18B111E11D703C4500328ED6 /* UINavigationBar+BackgroundColor.m in Sources */,
 				18B1126E1D70415400328ED6 /* MJRefreshAutoNormalFooter.m in Sources */,
+				18B112DB1D704C6800328ED6 /* SegmentedControl.m in Sources */,
 				18B111DE1D703C4500328ED6 /* NSTimer+Eazy.m in Sources */,
 				18B1126C1D70415400328ED6 /* MJRefreshHeader.m in Sources */,
 				18B112AD1D704ADD00328ED6 /* YTKNetworkPrivate.m in Sources */,
@@ -1100,6 +1239,7 @@
 				18B111DF1D703C4500328ED6 /* NSUserDefaults+Data.m in Sources */,
 				18B112361D70401B00328ED6 /* NBBaseViewModel.m in Sources */,
 				18B1126B1D70415400328ED6 /* MJRefreshFooter.m in Sources */,
+				18B112D61D704C6800328ED6 /* DoublePickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

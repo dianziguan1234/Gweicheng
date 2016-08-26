@@ -118,7 +118,7 @@
     if (self.cellItem.charactersLimit && textView.text.length > self.cellItem.charactersLimit) {
         textView.text = [textView.text substringWithRange:NSMakeRange(0, self.cellItem.charactersLimit)];
     }
-    self.self.cellItem.value = textView.text;
+    self.cellItem.value = textView.text;
     if (self.cellItem.onChange) {
         self.cellItem.onChange(self.cellItem);
     }
