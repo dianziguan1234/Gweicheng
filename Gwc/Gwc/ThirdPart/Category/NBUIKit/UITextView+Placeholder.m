@@ -27,7 +27,7 @@ static const void *NBTextViewPlaceholderTextKey = "NBfTextViewPlaceholderTextKey
 
 @end
 
-@interface UITextView (Placeholder)
+@interface UITextView ()
 
 @property (nonatomic, strong) UILabel *placeholderLabel;
 

@@ -89,6 +89,18 @@
 		18B1127A1D70415400328ED6 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112671D70415400328ED6 /* UIView+MJExtension.m */; };
 		18B1127F1D7044D100328ED6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18B1127D1D7044D100328ED6 /* Localizable.strings */; };
 		18B112831D7044DA00328ED6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18B112811D7044DA00328ED6 /* Localizable.strings */; };
+		18B1128A1D70480900328ED6 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112891D70480900328ED6 /* UIImage+animatedGIF.m */; };
+		18B1128E1D70498E00328ED6 /* LMUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B1128D1D70498E00328ED6 /* LMUtility.m */; };
+		18B112921D704A5300328ED6 /* LMAppGuideManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112911D704A5300328ED6 /* LMAppGuideManager.m */; };
+		18B112A61D704ADD00328ED6 /* YTKBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112951D704ADD00328ED6 /* YTKBaseRequest.m */; };
+		18B112A71D704ADD00328ED6 /* YTKBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112971D704ADD00328ED6 /* YTKBatchRequest.m */; };
+		18B112A81D704ADD00328ED6 /* YTKBatchRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112991D704ADD00328ED6 /* YTKBatchRequestAgent.m */; };
+		18B112A91D704ADD00328ED6 /* YTKChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B1129B1D704ADD00328ED6 /* YTKChainRequest.m */; };
+		18B112AA1D704ADD00328ED6 /* YTKChainRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B1129D1D704ADD00328ED6 /* YTKChainRequestAgent.m */; };
+		18B112AB1D704ADD00328ED6 /* YTKNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B1129F1D704ADD00328ED6 /* YTKNetworkAgent.m */; };
+		18B112AC1D704ADD00328ED6 /* YTKNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112A11D704ADD00328ED6 /* YTKNetworkConfig.m */; };
+		18B112AD1D704ADD00328ED6 /* YTKNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112A31D704ADD00328ED6 /* YTKNetworkPrivate.m */; };
+		18B112AE1D704ADD00328ED6 /* YTKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112A51D704ADD00328ED6 /* YTKRequest.m */; };
 		65253CABD2CEFB668E4711A2 /* libPods-Gwc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73427A43FCDE728FD8E50E46 /* libPods-Gwc.a */; };
 /* End PBXBuildFile section */
 
@@ -273,6 +285,30 @@
 		18B1127B1D70433E00328ED6 /* EaseLocalDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EaseLocalDefine.h; sourceTree = "<group>"; };
 		18B1127E1D7044D100328ED6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 		18B112821D7044DA00328ED6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = Localizable.strings; sourceTree = "<group>"; };
+		18B112881D70480900328ED6 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		18B112891D70480900328ED6 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		18B1128C1D70498E00328ED6 /* LMUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMUtility.h; sourceTree = "<group>"; };
+		18B1128D1D70498E00328ED6 /* LMUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMUtility.m; sourceTree = "<group>"; };
+		18B112901D704A5300328ED6 /* LMAppGuideManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAppGuideManager.h; sourceTree = "<group>"; };
+		18B112911D704A5300328ED6 /* LMAppGuideManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAppGuideManager.m; sourceTree = "<group>"; };
+		18B112941D704ADD00328ED6 /* YTKBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBaseRequest.h; sourceTree = "<group>"; };
+		18B112951D704ADD00328ED6 /* YTKBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBaseRequest.m; sourceTree = "<group>"; };
+		18B112961D704ADD00328ED6 /* YTKBatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBatchRequest.h; sourceTree = "<group>"; };
+		18B112971D704ADD00328ED6 /* YTKBatchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBatchRequest.m; sourceTree = "<group>"; };
+		18B112981D704ADD00328ED6 /* YTKBatchRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBatchRequestAgent.h; sourceTree = "<group>"; };
+		18B112991D704ADD00328ED6 /* YTKBatchRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBatchRequestAgent.m; sourceTree = "<group>"; };
+		18B1129A1D704ADD00328ED6 /* YTKChainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKChainRequest.h; sourceTree = "<group>"; };
+		18B1129B1D704ADD00328ED6 /* YTKChainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKChainRequest.m; sourceTree = "<group>"; };
+		18B1129C1D704ADD00328ED6 /* YTKChainRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKChainRequestAgent.h; sourceTree = "<group>"; };
+		18B1129D1D704ADD00328ED6 /* YTKChainRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKChainRequestAgent.m; sourceTree = "<group>"; };
+		18B1129E1D704ADD00328ED6 /* YTKNetworkAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkAgent.h; sourceTree = "<group>"; };
+		18B1129F1D704ADD00328ED6 /* YTKNetworkAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkAgent.m; sourceTree = "<group>"; };
+		18B112A01D704ADD00328ED6 /* YTKNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkConfig.h; sourceTree = "<group>"; };
+		18B112A11D704ADD00328ED6 /* YTKNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkConfig.m; sourceTree = "<group>"; };
+		18B112A21D704ADD00328ED6 /* YTKNetworkPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkPrivate.h; sourceTree = "<group>"; };
+		18B112A31D704ADD00328ED6 /* YTKNetworkPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkPrivate.m; sourceTree = "<group>"; };
+		18B112A41D704ADD00328ED6 /* YTKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKRequest.h; sourceTree = "<group>"; };
+		18B112A51D704ADD00328ED6 /* YTKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKRequest.m; sourceTree = "<group>"; };
 		73427A43FCDE728FD8E50E46 /* libPods-Gwc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Gwc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -414,6 +450,10 @@
 		18B111881D701EDF00328ED6 /* ThirdPart */ = {
 			isa = PBXGroup;
 			children = (
+				18B112931D704ADD00328ED6 /* YTKNetwork */,
+				18B1128F1D704A4800328ED6 /* AppGuideManager */,
+				18B1128B1D70496A00328ED6 /* Timestamp */,
+				18B112871D70480900328ED6 /* AnimatedGIF */,
 				18B1123B1D70415400328ED6 /* MJRefresh */,
 				18B111E41D703ED600328ED6 /* TableView */,
 				18B111981D703C4500328ED6 /* Category */,
@@ -719,6 +759,58 @@
 			path = "zh-Hans.lproj";
 			sourceTree = "<group>";
 		};
+		18B112871D70480900328ED6 /* AnimatedGIF */ = {
+			isa = PBXGroup;
+			children = (
+				18B112881D70480900328ED6 /* UIImage+animatedGIF.h */,
+				18B112891D70480900328ED6 /* UIImage+animatedGIF.m */,
+			);
+			path = AnimatedGIF;
+			sourceTree = "<group>";
+		};
+		18B1128B1D70496A00328ED6 /* Timestamp */ = {
+			isa = PBXGroup;
+			children = (
+				18B1128C1D70498E00328ED6 /* LMUtility.h */,
+				18B1128D1D70498E00328ED6 /* LMUtility.m */,
+			);
+			path = Timestamp;
+			sourceTree = "<group>";
+		};
+		18B1128F1D704A4800328ED6 /* AppGuideManager */ = {
+			isa = PBXGroup;
+			children = (
+				18B112901D704A5300328ED6 /* LMAppGuideManager.h */,
+				18B112911D704A5300328ED6 /* LMAppGuideManager.m */,
+			);
+			path = AppGuideManager;
+			sourceTree = "<group>";
+		};
+		18B112931D704ADD00328ED6 /* YTKNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				18B112941D704ADD00328ED6 /* YTKBaseRequest.h */,
+				18B112951D704ADD00328ED6 /* YTKBaseRequest.m */,
+				18B112961D704ADD00328ED6 /* YTKBatchRequest.h */,
+				18B112971D704ADD00328ED6 /* YTKBatchRequest.m */,
+				18B112981D704ADD00328ED6 /* YTKBatchRequestAgent.h */,
+				18B112991D704ADD00328ED6 /* YTKBatchRequestAgent.m */,
+				18B1129A1D704ADD00328ED6 /* YTKChainRequest.h */,
+				18B1129B1D704ADD00328ED6 /* YTKChainRequest.m */,
+				18B1129C1D704ADD00328ED6 /* YTKChainRequestAgent.h */,
+				18B1129D1D704ADD00328ED6 /* YTKChainRequestAgent.m */,
+				18B1129E1D704ADD00328ED6 /* YTKNetworkAgent.h */,
+				18B1129F1D704ADD00328ED6 /* YTKNetworkAgent.m */,
+				18B112A01D704ADD00328ED6 /* YTKNetworkConfig.h */,
+				18B112A11D704ADD00328ED6 /* YTKNetworkConfig.m */,
+				18B112A21D704ADD00328ED6 /* YTKNetworkPrivate.h */,
+				18B112A31D704ADD00328ED6 /* YTKNetworkPrivate.m */,
+				18B112A41D704ADD00328ED6 /* YTKRequest.h */,
+				18B112A51D704ADD00328ED6 /* YTKRequest.m */,
+			);
+			path = YTKNetwork;
+			sourceTree = "<group>";
+		};
 		AF36AEC7AF2E02C07A645CF7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -938,14 +1030,17 @@
 				18B112181D703ED600328ED6 /* NBSegmentCell.m in Sources */,
 				18B111DC1D703C4500328ED6 /* NSString+Format.m in Sources */,
 				18B112201D703ED600328ED6 /* NBTableViewController.m in Sources */,
+				18B112921D704A5300328ED6 /* LMAppGuideManager.m in Sources */,
 				18B1122F1D703F5E00328ED6 /* NBBaseModel.m in Sources */,
 				18B111D01D703C4500328ED6 /* UIColor+NBUIKit.m in Sources */,
 				18B111D21D703C4500328ED6 /* UIImageView+NBUIKit.m in Sources */,
 				18B112741D70415400328ED6 /* MJRefreshNormalHeader.m in Sources */,
 				18B112211D703ED600328ED6 /* NBTableViewItem.m in Sources */,
 				18B1126A1D70415400328ED6 /* MJRefreshComponent.m in Sources */,
+				18B112A91D704ADD00328ED6 /* YTKChainRequest.m in Sources */,
 				18B112221D703ED600328ED6 /* NBTableViewSection.m in Sources */,
 				18B112691D70415400328ED6 /* MJRefreshBackFooter.m in Sources */,
+				18B1128A1D70480900328ED6 /* UIImage+animatedGIF.m in Sources */,
 				18B1121E1D703ED600328ED6 /* NBTableViewCellStyle.m in Sources */,
 				18B112701D70415400328ED6 /* MJRefreshBackGifFooter.m in Sources */,
 				18B1121D1D703ED600328ED6 /* NBTableViewCell.m in Sources */,
@@ -954,17 +1049,22 @@
 				18B111DB1D703C4500328ED6 /* NSObject+GCD.m in Sources */,
 				18B111CD1D703C4500328ED6 /* NSString+NBUIKit.m in Sources */,
 				18B111D81D703C4500328ED6 /* NSDate+Format.m in Sources */,
+				18B1128E1D70498E00328ED6 /* LMUtility.m in Sources */,
+				18B112AE1D704ADD00328ED6 /* YTKRequest.m in Sources */,
+				18B112AA1D704ADD00328ED6 /* YTKChainRequestAgent.m in Sources */,
 				18B112721D70415400328ED6 /* MJRefreshBackStateFooter.m in Sources */,
 				18B112171D703ED600328ED6 /* NBSectionCell.m in Sources */,
 				18B111D61D703C4500328ED6 /* UIView+MGEasyFrame.m in Sources */,
 				18B112681D70415400328ED6 /* MJRefreshAutoFooter.m in Sources */,
 				18B111CF1D703C4500328ED6 /* UIButton+NBUIKit.m in Sources */,
 				18B111D91D703C4500328ED6 /* NSNotificationCenter+Eazy.m in Sources */,
+				18B112AC1D704ADD00328ED6 /* YTKNetworkConfig.m in Sources */,
 				18B112711D70415400328ED6 /* MJRefreshBackNormalFooter.m in Sources */,
 				18B111841D701D7300328ED6 /* AppDelegate.m in Sources */,
 				18B112191D703ED600328ED6 /* NBTextFieldCell.m in Sources */,
 				18B111CE1D703C4500328ED6 /* UIAlertView+NBUIKit.m in Sources */,
 				18B1127A1D70415400328ED6 /* UIView+MJExtension.m in Sources */,
+				18B112AB1D704ADD00328ED6 /* YTKNetworkAgent.m in Sources */,
 				18B112731D70415400328ED6 /* MJRefreshGifHeader.m in Sources */,
 				18B111D11D703C4500328ED6 /* UIImage+NBUIKit.m in Sources */,
 				18B1121F1D703ED600328ED6 /* NBTableViewController+FDAutoLayoutCell.m in Sources */,
@@ -981,17 +1081,21 @@
 				18B111E01D703C4500328ED6 /* UIApplication+AppInfo.m in Sources */,
 				18B112771D70415400328ED6 /* MJRefreshConst.m in Sources */,
 				18B111D31D703C4500328ED6 /* UILabel+NBUIKit.m in Sources */,
+				18B112A61D704ADD00328ED6 /* YTKBaseRequest.m in Sources */,
 				18B111D51D703C4500328ED6 /* UITextView+Placeholder.m in Sources */,
 				18B112161D703ED600328ED6 /* NBImageCell.m in Sources */,
 				18B1121C1D703ED600328ED6 /* NBTableViewAdaptor.m in Sources */,
 				18B1121A1D703ED600328ED6 /* NBTextViewCell.m in Sources */,
+				18B112A81D704ADD00328ED6 /* YTKBatchRequestAgent.m in Sources */,
 				18B112781D70415400328ED6 /* UIScrollView+MJExtension.m in Sources */,
 				18B111971D703BF800328ED6 /* NBNavigationController.m in Sources */,
 				18B111E11D703C4500328ED6 /* UINavigationBar+BackgroundColor.m in Sources */,
 				18B1126E1D70415400328ED6 /* MJRefreshAutoNormalFooter.m in Sources */,
 				18B111DE1D703C4500328ED6 /* NSTimer+Eazy.m in Sources */,
 				18B1126C1D70415400328ED6 /* MJRefreshHeader.m in Sources */,
+				18B112AD1D704ADD00328ED6 /* YTKNetworkPrivate.m in Sources */,
 				18B112751D70415400328ED6 /* MJRefreshStateHeader.m in Sources */,
+				18B112A71D704ADD00328ED6 /* YTKBatchRequest.m in Sources */,
 				18B1121B1D703ED600328ED6 /* NBActionBar.m in Sources */,
 				18B111DF1D703C4500328ED6 /* NSUserDefaults+Data.m in Sources */,
 				18B112361D70401B00328ED6 /* NBBaseViewModel.m in Sources */,
