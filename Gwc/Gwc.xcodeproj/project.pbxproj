@@ -118,6 +118,8 @@
 		18B112E51D7054C200328ED6 /* LMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112E41D7054C200328ED6 /* LMNavigationController.m */; };
 		65253CABD2CEFB668E4711A2 /* libPods-Gwc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73427A43FCDE728FD8E50E46 /* libPods-Gwc.a */; };
 		CC41AEF21D714F4800C1AFB4 /* UIButton+countDown.m in Sources */ = {isa = PBXBuildFile; fileRef = CC41AEF11D714F4800C1AFB4 /* UIButton+countDown.m */; };
+		CC41AEF91D7184E800C1AFB4 /* SMPagerTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC41AEF61D7184E800C1AFB4 /* SMPagerTabView.m */; };
+		CC41AEFA1D7184E800C1AFB4 /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CC41AEF81D7184E800C1AFB4 /* UIViewAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -358,6 +360,10 @@
 		73427A43FCDE728FD8E50E46 /* libPods-Gwc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Gwc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC41AEF01D714F4800C1AFB4 /* UIButton+countDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+countDown.h"; sourceTree = "<group>"; };
 		CC41AEF11D714F4800C1AFB4 /* UIButton+countDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+countDown.m"; sourceTree = "<group>"; };
+		CC41AEF51D7184E800C1AFB4 /* SMPagerTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPagerTabView.h; sourceTree = "<group>"; };
+		CC41AEF61D7184E800C1AFB4 /* SMPagerTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMPagerTabView.m; sourceTree = "<group>"; };
+		CC41AEF71D7184E800C1AFB4 /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAdditions.h; sourceTree = "<group>"; };
+		CC41AEF81D7184E800C1AFB4 /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAdditions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -414,9 +420,9 @@
 				18B1117E1D701D7300328ED6 /* AppDelegate */,
 				18B111811D701D7300328ED6 /* RootVC */,
 				18B111861D701EDF00328ED6 /* Macro */,
+				CC41AEF31D7184E800C1AFB4 /* CustomView */,
 				18B111881D701EDF00328ED6 /* ThirdPart */,
 				18B111871D701EDF00328ED6 /* Model */,
-				18B111891D701EDF00328ED6 /* View */,
 				18B1118A1D701EDF00328ED6 /* ViewController */,
 				18B1118B1D701EDF00328ED6 /* ViewModel */,
 				181883A31D70107B0075E42E /* Assets.xcassets */,
@@ -508,13 +514,6 @@
 				18B111981D703C4500328ED6 /* Category */,
 			);
 			path = ThirdPart;
-			sourceTree = "<group>";
-		};
-		18B111891D701EDF00328ED6 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		18B1118A1D701EDF00328ED6 /* ViewController */ = {
@@ -956,6 +955,25 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CC41AEF31D7184E800C1AFB4 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				CC41AEF41D7184E800C1AFB4 /* SMPagerTabView */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		CC41AEF41D7184E800C1AFB4 /* SMPagerTabView */ = {
+			isa = PBXGroup;
+			children = (
+				CC41AEF51D7184E800C1AFB4 /* SMPagerTabView.h */,
+				CC41AEF61D7184E800C1AFB4 /* SMPagerTabView.m */,
+				CC41AEF71D7184E800C1AFB4 /* UIViewAdditions.h */,
+				CC41AEF81D7184E800C1AFB4 /* UIViewAdditions.m */,
+			);
+			path = SMPagerTabView;
+			sourceTree = "<group>";
+		};
 		DF18B841274B5B53793E8698 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1221,10 +1239,12 @@
 				18B1126F1D70415400328ED6 /* MJRefreshAutoStateFooter.m in Sources */,
 				18B1123A1D70407E00328ED6 /* UIViewController+NavigationBar.m in Sources */,
 				181883991D70107B0075E42E /* main.m in Sources */,
+				CC41AEF91D7184E800C1AFB4 /* SMPagerTabView.m in Sources */,
 				18B111DA1D703C4500328ED6 /* NSObject+AssociatedObjects.m in Sources */,
 				18B112D11D704C6800328ED6 /* MultiURLImageScrollView.m in Sources */,
 				18B112321D703F6C00328ED6 /* NBBaseListModel.m in Sources */,
 				18B111E01D703C4500328ED6 /* UIApplication+AppInfo.m in Sources */,
+				CC41AEFA1D7184E800C1AFB4 /* UIViewAdditions.m in Sources */,
 				18B112771D70415400328ED6 /* MJRefreshConst.m in Sources */,
 				18B111D31D703C4500328ED6 /* UILabel+NBUIKit.m in Sources */,
 				18B112A61D704ADD00328ED6 /* YTKBaseRequest.m in Sources */,
