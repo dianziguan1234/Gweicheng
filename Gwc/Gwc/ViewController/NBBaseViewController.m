@@ -10,6 +10,10 @@
 #import "NBNavigationController.h"
 #import <RDVTabBarController/RDVTabBarController.h>
 
+@interface NBBaseViewController ()<UINavigationControllerDelegate>
+
+@end
+
 @implementation NBBaseViewController
 
 - (id)init
@@ -51,6 +55,8 @@
     if (self.navigationController.viewControllers.count > 1) {
         [[self rdv_tabBarController] setTabBarHidden:YES animated:NO];
     }
+    // 解决导航栏切换的问题(先注释掉)
+    //self.navigationController.delegate = self;
 }
 
 - (void)viewWillDisappear:(BOOL)animated{
@@ -92,6 +98,30 @@
 
 - (void)setHideTabBar:(BOOL)hideTabBar{
     [[self rdv_tabBarController] setTabBarHidden:hideTabBar animated:NO];
+}
+
+#pragma mark - Private Methods
+#pragma mark Whether need Navigation Bar Hidden
+- (BOOL) needHiddenBarInViewController:(UIViewController *)viewController {
+    
+    BOOL needHideNaivgaionBar = NO;
+    /*
+     if ([viewController isKindOfClass: [MLMineViewController class]] ||
+     [viewController isKindOfClass: [MLUserHomePageViewController class]] ||
+     [viewController isKindOfClass: [MLLoginViewController class]]) {
+     needHideNaivgaionBar = YES;
+     }
+     */
+    
+    return needHideNaivgaionBar;
+}
+
+#pragma mark - UINaivgationController Delegate
+#pragma mark Will Show ViewController
+- (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    
+    [self.navigationController setNavigationBarHidden: [self needHiddenBarInViewController: viewController]
+                                             animated: animated];
 }
 
 @end
