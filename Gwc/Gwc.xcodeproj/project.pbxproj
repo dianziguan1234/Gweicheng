@@ -120,6 +120,7 @@
 		CC41AEF21D714F4800C1AFB4 /* UIButton+countDown.m in Sources */ = {isa = PBXBuildFile; fileRef = CC41AEF11D714F4800C1AFB4 /* UIButton+countDown.m */; };
 		CC41AEF91D7184E800C1AFB4 /* SMPagerTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC41AEF61D7184E800C1AFB4 /* SMPagerTabView.m */; };
 		CC41AEFA1D7184E800C1AFB4 /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CC41AEF81D7184E800C1AFB4 /* UIViewAdditions.m */; };
+		CC511C5A1D71B32900EF3E01 /* UIButton+touch.m in Sources */ = {isa = PBXBuildFile; fileRef = CC511C591D71B32900EF3E01 /* UIButton+touch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -364,6 +365,8 @@
 		CC41AEF61D7184E800C1AFB4 /* SMPagerTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMPagerTabView.m; sourceTree = "<group>"; };
 		CC41AEF71D7184E800C1AFB4 /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAdditions.h; sourceTree = "<group>"; };
 		CC41AEF81D7184E800C1AFB4 /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAdditions.m; sourceTree = "<group>"; };
+		CC511C581D71B32900EF3E01 /* UIButton+touch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+touch.h"; sourceTree = "<group>"; };
+		CC511C591D71B32900EF3E01 /* UIButton+touch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+touch.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -504,6 +507,7 @@
 		18B111881D701EDF00328ED6 /* ThirdPart */ = {
 			isa = PBXGroup;
 			children = (
+				CC511C561D71B30500EF3E01 /* Runtime */,
 				18B112AF1D704C6800328ED6 /* Widget */,
 				18B112931D704ADD00328ED6 /* YTKNetwork */,
 				18B1128F1D704A4800328ED6 /* AppGuideManager */,
@@ -974,6 +978,23 @@
 			path = SMPagerTabView;
 			sourceTree = "<group>";
 		};
+		CC511C561D71B30500EF3E01 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				CC511C571D71B30500EF3E01 /* UIButton */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		CC511C571D71B30500EF3E01 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				CC511C581D71B32900EF3E01 /* UIButton+touch.h */,
+				CC511C591D71B32900EF3E01 /* UIButton+touch.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
 		DF18B841274B5B53793E8698 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1230,6 +1251,7 @@
 				18B112D51D704C6800328ED6 /* DatePickerView.m in Sources */,
 				18B111D11D703C4500328ED6 /* UIImage+NBUIKit.m in Sources */,
 				18B1121F1D703ED600328ED6 /* NBTableViewController+FDAutoLayoutCell.m in Sources */,
+				CC511C5A1D71B32900EF3E01 /* UIButton+touch.m in Sources */,
 				18B112791D70415400328ED6 /* UIScrollView+MJRefresh.m in Sources */,
 				18B1122A1D703F0500328ED6 /* NBBaseViewController.m in Sources */,
 				18B111851D701D7300328ED6 /* DYRootViewController.m in Sources */,
