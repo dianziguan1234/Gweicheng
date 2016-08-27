@@ -74,7 +74,7 @@
     backBtn.nb_hitEdgeOutsets                    = UIEdgeInsetsMake(5, 5, 5, 5);// 扩大一下点击范围
     backBtn.contentHorizontalAlignment           = UIControlContentHorizontalAlignmentLeft;
     [backBtn nb_addTarget:self touchAction:@selector(back)];
-
+    
     UIBarButtonItem *backItem                    = [[UIBarButtonItem alloc] initWithCustomView:backBtn];
     self.currentNavigationItem.leftBarButtonItem = backItem;
 }
@@ -159,7 +159,7 @@
     }
     UIImage *image                    = [UIImage imageNamed:imageName];
     CGRect frame                      = CGRectMake(0, 0, image.size.width + 10, image.size.height + 10);
-
+    
     UIButton *barBtn                  = [UIButton nb_buttonWithSize:frame.size font:NavigationBar_Button_Font color:COLOR_NAVIGATIONBAR_BUTTON selected:COLOR_NAVIGATIONBAR_BUTTON disabled:COLOR_DISABLE_TEXT backgroud:nil selected:nil disabled:nil];
     barBtn.nb_origin                  = frame.origin;
     barBtn.nb_normalImage             = image;
@@ -169,7 +169,7 @@
     barBtn.imageEdgeInsets            = UIEdgeInsetsMake(0, 0, 0, 0);
     barBtn.exclusiveTouch             = YES;
     [barBtn nb_addTarget:self touchAction:action];
-
+    
     UIBarButtonItem *barButtonItem    = [[UIBarButtonItem alloc] initWithCustomView:barBtn];
     
     return barButtonItem;
@@ -201,9 +201,9 @@
     barBtn.imageEdgeInsets            = UIEdgeInsetsMake(0, 0, 0, 0);
     barBtn.exclusiveTouch             = YES;
     [barBtn nb_addTarget:self touchAction:action];
-
+    
     UIBarButtonItem *barButtonItem    = [[UIBarButtonItem alloc] initWithCustomView:barBtn];
-
+    
     return barButtonItem;
 }
 
@@ -229,5 +229,81 @@
     UIImage *image = [UIImage nb_imageWithColor:COLOR_NAVIVATIONBAR size:CGSizeMake(1, height)];
     [picker.navigationBar setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
 }
+
+#pragma mark 添加返回按钮
+- (void) addBackNavigationBarItem {
+    
+    UIButton *button = [[UIButton alloc] initWithFrame: CGRectMake(0, 0, 44, 44)];
+    [button setImage: [UIImage imageNamed: @"nav_icon_back_normal"] forState: UIControlStateNormal];
+    [button addTarget: self action: @selector(back) forControlEvents: UIControlEventTouchUpInside];
+    button.imageEdgeInsets = UIEdgeInsetsMake(0, 0, 3, 5);
+    UIBarButtonItem *placeHolderItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem: UIBarButtonSystemItemFixedSpace target: nil action: nil];
+    placeHolderItem.width = -15;
+    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithCustomView: button];
+    self.currentNavigationItem.leftBarButtonItems = @[placeHolderItem, backItem];
+}
+
+
+#pragma mark 添加导航栏标题
+- (void) addNavigationTitle:(NSString *)title {
+    
+    //    1. 计算 Label 宽度
+    CGFloat labelWidth = [title boundingRectWithSize:CGSizeMake(200, 30) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:20]} context:nil].size.width;
+    
+    //    2. 创建 TitleLabel
+    UILabel *titleLabel = [[UILabel alloc] initWithFrame: CGRectMake(0, 0, labelWidth, 44)];
+    titleLabel.font = [UIFont systemFontOfSize:20];
+    titleLabel.text = title;
+    titleLabel.textColor = [UIColor blackColor];
+    titleLabel.textAlignment = NSTextAlignmentCenter;
+    
+    //    3. 设置导航栏的 TitleView
+    self.currentNavigationItem.titleView = titleLabel;
+}
+
+#pragma makr 添加导航栏右侧按钮
+- (void) addRightNavigationItemWithTitle:(NSString *)title {
+    
+    UIButton *button = [[UIButton alloc] initWithFrame: CGRectMake(0, 0, 44, 44)];
+    [button setTitle: title forState: UIControlStateNormal];
+    [button setTitleColor: [UIColor blackColor] forState: UIControlStateNormal];
+    button.titleLabel.font = [UIFont systemFontOfSize:13];
+    [button addTarget: self action: @selector(rightNavigationItemAction:) forControlEvents: UIControlEventTouchUpInside];
+    CGFloat titleWidth = [title boundingRectWithSize: CGSizeMake(100, 100) options: NSStringDrawingUsesLineFragmentOrigin attributes: @{NSFontAttributeName : button.titleLabel.font} context: nil].size.width;
+    CGFloat edgeInsetRight = 44 - titleWidth;
+    button.titleEdgeInsets = UIEdgeInsetsMake(0, 0, 0, -edgeInsetRight);
+    
+    self.currentNavigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView: button];
+}
+
+#pragma mark - Actions
+#pragma mark -
+#pragma mark Right Bar Button Item Click Action
+- (void) rightNavigationItemAction:(UIButton *)sender {
+    NSLog(@"%s", __FUNCTION__);
+}
+
+#pragma makr 添加导航栏左侧文字按钮
+- (void) addLeftNavigationItemWithTitle:(NSString *)title {
+    
+    UIButton *button = [[UIButton alloc] initWithFrame: CGRectMake(0, 0, 44, 44)];
+    [button setTitle: title forState: UIControlStateNormal];
+    [button setTitleColor: [UIColor blackColor] forState: UIControlStateNormal];
+    button.titleLabel.font = [UIFont systemFontOfSize:13];
+    [button addTarget: self action: @selector(leftNavigationItemAction:) forControlEvents: UIControlEventTouchUpInside];
+    CGFloat titleWidth = [title boundingRectWithSize: CGSizeMake(100, 100) options: NSStringDrawingUsesLineFragmentOrigin attributes: @{NSFontAttributeName : button.titleLabel.font} context: nil].size.width;
+    CGFloat edgeInsetRight = 44 - titleWidth;
+    button.titleEdgeInsets = UIEdgeInsetsMake(0, 0, 0, -edgeInsetRight);
+    
+    self.currentNavigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView: button];
+}
+
+#pragma mark - Actions
+#pragma mark -
+#pragma mark Left Bar Button Item Click Action
+- (void) leftNavigationItemAction:(UIButton *)sender {
+    NSLog(@"%s", __FUNCTION__);
+}
+
 
 @end

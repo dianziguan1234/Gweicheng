@@ -62,7 +62,30 @@
 /*!
  *  @brief  设置图片选择vc风格和app风格保持一致
  *
- *  @param picker <#picker description#>
+ *  @param picker picker description
  */
 - (void)setImagePickerNavigationBarStyle:(UIImagePickerController*)picker;
+
+/**
+ *  添加返回按钮
+ */
+- (void) addBackNavigationBarItem;
+/**
+ *  添加导航栏标题
+ *
+ *  @param image 标题
+ */
+- (void) addNavigationTitle:(NSString *)title;
+/**
+ *  添加导航栏右侧按钮
+ *
+ *  @param title 按钮标题
+ */
+- (void) addRightNavigationItemWithTitle:(NSString *)title;
+/**
+ *  添加导航栏左侧按钮
+ *
+ *  @param title 按钮标题
+ */
+- (void) addLeftNavigationItemWithTitle:(NSString *)title;
 @end
