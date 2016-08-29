@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181732141D73D490000A88C6 /* UIButton+LLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 181732131D73D490000A88C6 /* UIButton+LLExtension.m */; };
+		181732171D73D4A5000A88C6 /* UIImageView+LLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 181732161D73D4A5000A88C6 /* UIImageView+LLExtension.m */; };
+		1817321E1D73D4E7000A88C6 /* UILabel+StringFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817321D1D73D4E7000A88C6 /* UILabel+StringFrame.m */; };
+		181732231D73D503000A88C6 /* UILabel+LLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 181732201D73D503000A88C6 /* UILabel+LLExtension.m */; };
+		181732241D73D503000A88C6 /* UILabel+Style.m in Sources */ = {isa = PBXBuildFile; fileRef = 181732221D73D503000A88C6 /* UILabel+Style.m */; };
+		181732271D73D515000A88C6 /* NSString+HXAddtions.m in Sources */ = {isa = PBXBuildFile; fileRef = 181732261D73D515000A88C6 /* NSString+HXAddtions.m */; };
 		181883991D70107B0075E42E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181883981D70107B0075E42E /* main.m */; };
 		181883A41D70107B0075E42E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181883A31D70107B0075E42E /* Assets.xcassets */; };
 		181883B21D70107B0075E42E /* GwcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181883B11D70107B0075E42E /* GwcTests.m */; };
@@ -143,6 +149,18 @@
 /* Begin PBXFileReference section */
 		01C24FF5BE30CF982708F94B /* Pods-Gwc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gwc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gwc/Pods-Gwc.debug.xcconfig"; sourceTree = "<group>"; };
 		0C1F445CD30795E391ED7DF8 /* Pods-Gwc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gwc.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gwc/Pods-Gwc.release.xcconfig"; sourceTree = "<group>"; };
+		181732121D73D490000A88C6 /* UIButton+LLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LLExtension.h"; sourceTree = "<group>"; };
+		181732131D73D490000A88C6 /* UIButton+LLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LLExtension.m"; sourceTree = "<group>"; };
+		181732151D73D4A5000A88C6 /* UIImageView+LLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LLExtension.h"; sourceTree = "<group>"; };
+		181732161D73D4A5000A88C6 /* UIImageView+LLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LLExtension.m"; sourceTree = "<group>"; };
+		1817321C1D73D4E7000A88C6 /* UILabel+StringFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+StringFrame.h"; sourceTree = "<group>"; };
+		1817321D1D73D4E7000A88C6 /* UILabel+StringFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+StringFrame.m"; sourceTree = "<group>"; };
+		1817321F1D73D503000A88C6 /* UILabel+LLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LLExtension.h"; sourceTree = "<group>"; };
+		181732201D73D503000A88C6 /* UILabel+LLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LLExtension.m"; sourceTree = "<group>"; };
+		181732211D73D503000A88C6 /* UILabel+Style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Style.h"; sourceTree = "<group>"; };
+		181732221D73D503000A88C6 /* UILabel+Style.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Style.m"; sourceTree = "<group>"; };
+		181732251D73D515000A88C6 /* NSString+HXAddtions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HXAddtions.h"; sourceTree = "<group>"; };
+		181732261D73D515000A88C6 /* NSString+HXAddtions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HXAddtions.m"; sourceTree = "<group>"; };
 		181883941D70107B0075E42E /* Gwc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gwc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181883981D70107B0075E42E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		181883A31D70107B0075E42E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -395,6 +413,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1817320E1D73D445000A88C6 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				181732251D73D515000A88C6 /* NSString+HXAddtions.h */,
+				181732261D73D515000A88C6 /* NSString+HXAddtions.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		1817320F1D73D445000A88C6 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				181732121D73D490000A88C6 /* UIButton+LLExtension.h */,
+				181732131D73D490000A88C6 /* UIButton+LLExtension.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		181732101D73D445000A88C6 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				181732151D73D4A5000A88C6 /* UIImageView+LLExtension.h */,
+				181732161D73D4A5000A88C6 /* UIImageView+LLExtension.m */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		1817321B1D73D4E7000A88C6 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				1817321C1D73D4E7000A88C6 /* UILabel+StringFrame.h */,
+				1817321D1D73D4E7000A88C6 /* UILabel+StringFrame.m */,
+				1817321F1D73D503000A88C6 /* UILabel+LLExtension.h */,
+				181732201D73D503000A88C6 /* UILabel+LLExtension.m */,
+				181732211D73D503000A88C6 /* UILabel+Style.h */,
+				181732221D73D503000A88C6 /* UILabel+Style.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
 		1818838B1D70107B0075E42E = {
 			isa = PBXGroup;
 			children = (
@@ -544,6 +602,10 @@
 		18B111981D703C4500328ED6 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				1817321B1D73D4E7000A88C6 /* UILabel */,
+				1817320E1D73D445000A88C6 /* NSString */,
+				1817320F1D73D445000A88C6 /* UIButton */,
+				181732101D73D445000A88C6 /* UIImageView */,
 				18B112371D70406700328ED6 /* UIViewController */,
 				18B111991D703C4500328ED6 /* NBUIKit */,
 				18B111B51D703C4500328ED6 /* Utility */,
@@ -1212,6 +1274,7 @@
 				18B112741D70415400328ED6 /* MJRefreshNormalHeader.m in Sources */,
 				18B112211D703ED600328ED6 /* NBTableViewItem.m in Sources */,
 				18B1126A1D70415400328ED6 /* MJRefreshComponent.m in Sources */,
+				181732141D73D490000A88C6 /* UIButton+LLExtension.m in Sources */,
 				18B112A91D704ADD00328ED6 /* YTKChainRequest.m in Sources */,
 				18B112221D703ED600328ED6 /* NBTableViewSection.m in Sources */,
 				18B112D01D704C6800328ED6 /* NBAlertController.m in Sources */,
@@ -1240,9 +1303,12 @@
 				18B111D91D703C4500328ED6 /* NSNotificationCenter+Eazy.m in Sources */,
 				18B112D81D704C6800328ED6 /* SinglePickerView.m in Sources */,
 				18B112AC1D704ADD00328ED6 /* YTKNetworkConfig.m in Sources */,
+				181732271D73D515000A88C6 /* NSString+HXAddtions.m in Sources */,
 				18B112711D70415400328ED6 /* MJRefreshBackNormalFooter.m in Sources */,
 				18B112D21D704C6800328ED6 /* SingleURLImageZoomScrollView.m in Sources */,
+				181732241D73D503000A88C6 /* UILabel+Style.m in Sources */,
 				18B111841D701D7300328ED6 /* AppDelegate.m in Sources */,
+				181732231D73D503000A88C6 /* UILabel+LLExtension.m in Sources */,
 				18B112191D703ED600328ED6 /* NBTextFieldCell.m in Sources */,
 				18B111CE1D703C4500328ED6 /* UIAlertView+NBUIKit.m in Sources */,
 				18B1127A1D70415400328ED6 /* UIView+MJExtension.m in Sources */,
@@ -1279,6 +1345,7 @@
 				18B112DC1D704C6800328ED6 /* SegmentedScrollView.m in Sources */,
 				18B1121A1D703ED600328ED6 /* NBTextViewCell.m in Sources */,
 				18B112A81D704ADD00328ED6 /* YTKBatchRequestAgent.m in Sources */,
+				181732171D73D4A5000A88C6 /* UIImageView+LLExtension.m in Sources */,
 				18B112781D70415400328ED6 /* UIScrollView+MJExtension.m in Sources */,
 				18B111971D703BF800328ED6 /* NBNavigationController.m in Sources */,
 				18B111E11D703C4500328ED6 /* UINavigationBar+BackgroundColor.m in Sources */,
@@ -1286,6 +1353,7 @@
 				18B112DB1D704C6800328ED6 /* SegmentedControl.m in Sources */,
 				18B111DE1D703C4500328ED6 /* NSTimer+Eazy.m in Sources */,
 				18B1126C1D70415400328ED6 /* MJRefreshHeader.m in Sources */,
+				1817321E1D73D4E7000A88C6 /* UILabel+StringFrame.m in Sources */,
 				18B112AD1D704ADD00328ED6 /* YTKNetworkPrivate.m in Sources */,
 				18B112751D70415400328ED6 /* MJRefreshStateHeader.m in Sources */,
 				18B112A71D704ADD00328ED6 /* YTKBatchRequest.m in Sources */,
