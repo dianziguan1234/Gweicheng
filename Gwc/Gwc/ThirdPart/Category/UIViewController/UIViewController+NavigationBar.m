@@ -234,7 +234,7 @@
 - (void) addBackNavigationBarItem {
     
     UIButton *button = [[UIButton alloc] initWithFrame: CGRectMake(0, 0, 44, 44)];
-    [button setImage: [UIImage imageNamed: @"nav_icon_back_normal"] forState: UIControlStateNormal];
+    [button setImage: [UIImage imageNamed: @"btn_nav_back"] forState: UIControlStateNormal];
     [button addTarget: self action: @selector(back) forControlEvents: UIControlEventTouchUpInside];
     button.imageEdgeInsets = UIEdgeInsetsMake(0, 0, 3, 5);
     UIBarButtonItem *placeHolderItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem: UIBarButtonSystemItemFixedSpace target: nil action: nil];
