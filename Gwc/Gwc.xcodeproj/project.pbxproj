@@ -24,6 +24,7 @@
 		182A93391D73E53A007CC9DA /* NSAttributedString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A93381D73E53A007CC9DA /* NSAttributedString+Category.m */; };
 		182A933D1D73E5E6007CC9DA /* NSTimer+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A933C1D73E5E6007CC9DA /* NSTimer+Category.m */; };
 		182A93411D73E6DA007CC9DA /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A93401D73E6DA007CC9DA /* UIView+Category.m */; };
+		184C59641D753DCC00D9E15C /* UIButton+countDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C59631D753DCC00D9E15C /* UIButton+countDown.m */; };
 		18B111841D701D7300328ED6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B111801D701D7300328ED6 /* AppDelegate.m */; };
 		18B111851D701D7300328ED6 /* DYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B111831D701D7300328ED6 /* DYRootViewController.m */; };
 		18B111971D703BF800328ED6 /* NBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B111961D703BF800328ED6 /* NBNavigationController.m */; };
@@ -130,7 +131,6 @@
 		18B112DF1D704E3100328ED6 /* UIViewController+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112DE1D704E3100328ED6 /* UIViewController+Toast.m */; };
 		18B112E51D7054C200328ED6 /* LMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112E41D7054C200328ED6 /* LMNavigationController.m */; };
 		65253CABD2CEFB668E4711A2 /* libPods-Gwc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73427A43FCDE728FD8E50E46 /* libPods-Gwc.a */; };
-		CC41AEF21D714F4800C1AFB4 /* UIButton+countDown.m in Sources */ = {isa = PBXBuildFile; fileRef = CC41AEF11D714F4800C1AFB4 /* UIButton+countDown.m */; };
 		CC41AEF91D7184E800C1AFB4 /* SMPagerTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC41AEF61D7184E800C1AFB4 /* SMPagerTabView.m */; };
 		CC41AEFA1D7184E800C1AFB4 /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CC41AEF81D7184E800C1AFB4 /* UIViewAdditions.m */; };
 		CC511C5A1D71B32900EF3E01 /* UIButton+touch.m in Sources */ = {isa = PBXBuildFile; fileRef = CC511C591D71B32900EF3E01 /* UIButton+touch.m */; };
@@ -192,6 +192,8 @@
 		182A933C1D73E5E6007CC9DA /* NSTimer+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Category.m"; sourceTree = "<group>"; };
 		182A933F1D73E6DA007CC9DA /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
 		182A93401D73E6DA007CC9DA /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		184C59621D753DCC00D9E15C /* UIButton+countDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+countDown.h"; sourceTree = "<group>"; };
+		184C59631D753DCC00D9E15C /* UIButton+countDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+countDown.m"; sourceTree = "<group>"; };
 		18B1117F1D701D7300328ED6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18B111801D701D7300328ED6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18B111821D701D7300328ED6 /* DYRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYRootViewController.h; sourceTree = "<group>"; };
@@ -398,8 +400,6 @@
 		18B112E31D7054C200328ED6 /* LMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNavigationController.h; sourceTree = "<group>"; };
 		18B112E41D7054C200328ED6 /* LMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNavigationController.m; sourceTree = "<group>"; };
 		73427A43FCDE728FD8E50E46 /* libPods-Gwc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Gwc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC41AEF01D714F4800C1AFB4 /* UIButton+countDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+countDown.h"; sourceTree = "<group>"; };
-		CC41AEF11D714F4800C1AFB4 /* UIButton+countDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+countDown.m"; sourceTree = "<group>"; };
 		CC41AEF51D7184E800C1AFB4 /* SMPagerTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPagerTabView.h; sourceTree = "<group>"; };
 		CC41AEF61D7184E800C1AFB4 /* SMPagerTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMPagerTabView.m; sourceTree = "<group>"; };
 		CC41AEF71D7184E800C1AFB4 /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAdditions.h; sourceTree = "<group>"; };
@@ -446,6 +446,8 @@
 		1817320F1D73D445000A88C6 /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
+				184C59621D753DCC00D9E15C /* UIButton+countDown.h */,
+				184C59631D753DCC00D9E15C /* UIButton+countDown.m */,
 				181732121D73D490000A88C6 /* UIButton+LLExtension.h */,
 				181732131D73D490000A88C6 /* UIButton+LLExtension.m */,
 			);
@@ -698,8 +700,6 @@
 				18B111A21D703C4500328ED6 /* UIAlertView+NBUIKit.m */,
 				18B111A31D703C4500328ED6 /* UIButton+NBUIKit.h */,
 				18B111A41D703C4500328ED6 /* UIButton+NBUIKit.m */,
-				CC41AEF01D714F4800C1AFB4 /* UIButton+countDown.h */,
-				CC41AEF11D714F4800C1AFB4 /* UIButton+countDown.m */,
 				18B111A51D703C4500328ED6 /* UIColor+NBUIKit.h */,
 				18B111A61D703C4500328ED6 /* UIColor+NBUIKit.m */,
 				18B111A71D703C4500328ED6 /* UIImage+NBUIKit.h */,
@@ -1387,6 +1387,7 @@
 				18B111841D701D7300328ED6 /* AppDelegate.m in Sources */,
 				182A93351D73E451007CC9DA /* NSMutableArray+Category.m in Sources */,
 				181732231D73D503000A88C6 /* UILabel+LLExtension.m in Sources */,
+				184C59641D753DCC00D9E15C /* UIButton+countDown.m in Sources */,
 				18B112191D703ED600328ED6 /* NBTextFieldCell.m in Sources */,
 				18B111CE1D703C4500328ED6 /* UIAlertView+NBUIKit.m in Sources */,
 				182A93311D73E39B007CC9DA /* NSArray+Category.m in Sources */,
@@ -1418,7 +1419,6 @@
 				18B111D31D703C4500328ED6 /* UILabel+NBUIKit.m in Sources */,
 				18B112A61D704ADD00328ED6 /* YTKBaseRequest.m in Sources */,
 				18B112D31D704C6800328ED6 /* PagerView.m in Sources */,
-				CC41AEF21D714F4800C1AFB4 /* UIButton+countDown.m in Sources */,
 				18B112DF1D704E3100328ED6 /* UIViewController+Toast.m in Sources */,
 				182A93411D73E6DA007CC9DA /* UIView+Category.m in Sources */,
 				18B111D51D703C4500328ED6 /* UITextView+Placeholder.m in Sources */,

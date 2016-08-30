@@ -23,7 +23,6 @@
 #import "UIView+MGEasyFrame.h"
 #import "UIAlertView+NBUIKit.h"
 #import "UITextView+Placeholder.h"
-#import "UIButton+countDown.h"
 #endif
 
 //#endif /* NBUIKit_h */
