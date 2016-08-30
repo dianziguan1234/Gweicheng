@@ -25,6 +25,7 @@
 		182A933D1D73E5E6007CC9DA /* NSTimer+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A933C1D73E5E6007CC9DA /* NSTimer+Category.m */; };
 		182A93411D73E6DA007CC9DA /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A93401D73E6DA007CC9DA /* UIView+Category.m */; };
 		184C59641D753DCC00D9E15C /* UIButton+countDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C59631D753DCC00D9E15C /* UIButton+countDown.m */; };
+		184C59671D755FE600D9E15C /* GXToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C59661D755FE600D9E15C /* GXToast.m */; };
 		18B111841D701D7300328ED6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B111801D701D7300328ED6 /* AppDelegate.m */; };
 		18B111851D701D7300328ED6 /* DYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B111831D701D7300328ED6 /* DYRootViewController.m */; };
 		18B111971D703BF800328ED6 /* NBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B111961D703BF800328ED6 /* NBNavigationController.m */; };
@@ -194,6 +195,8 @@
 		182A93401D73E6DA007CC9DA /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
 		184C59621D753DCC00D9E15C /* UIButton+countDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+countDown.h"; sourceTree = "<group>"; };
 		184C59631D753DCC00D9E15C /* UIButton+countDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+countDown.m"; sourceTree = "<group>"; };
+		184C59651D755FE600D9E15C /* GXToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXToast.h; sourceTree = "<group>"; };
+		184C59661D755FE600D9E15C /* GXToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXToast.m; sourceTree = "<group>"; };
 		18B1117F1D701D7300328ED6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18B111801D701D7300328ED6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18B111821D701D7300328ED6 /* DYRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYRootViewController.h; sourceTree = "<group>"; };
@@ -1107,6 +1110,8 @@
 				CC41AEF61D7184E800C1AFB4 /* SMPagerTabView.m */,
 				CC41AEF71D7184E800C1AFB4 /* UIViewAdditions.h */,
 				CC41AEF81D7184E800C1AFB4 /* UIViewAdditions.m */,
+				184C59651D755FE600D9E15C /* GXToast.h */,
+				184C59661D755FE600D9E15C /* GXToast.m */,
 			);
 			path = SMPagerTabView;
 			sourceTree = "<group>";
@@ -1363,6 +1368,7 @@
 				18B111D41D703C4500328ED6 /* UITextField+NBUIKit.m in Sources */,
 				18B112D71D704C6800328ED6 /* MultiPickerView.m in Sources */,
 				18B111D71D703C4500328ED6 /* UIView+NBUIKit.m in Sources */,
+				184C59671D755FE600D9E15C /* GXToast.m in Sources */,
 				18B111DB1D703C4500328ED6 /* NSObject+GCD.m in Sources */,
 				18B111CD1D703C4500328ED6 /* NSString+NBUIKit.m in Sources */,
 				18B111D81D703C4500328ED6 /* NSDate+Format.m in Sources */,
