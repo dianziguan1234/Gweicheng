@@ -26,6 +26,10 @@
 		182A93411D73E6DA007CC9DA /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A93401D73E6DA007CC9DA /* UIView+Category.m */; };
 		184C59641D753DCC00D9E15C /* UIButton+countDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C59631D753DCC00D9E15C /* UIButton+countDown.m */; };
 		184C59671D755FE600D9E15C /* GXToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C59661D755FE600D9E15C /* GXToast.m */; };
+		184C596F1D7566CF00D9E15C /* YXActionSheetButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C596A1D7566CF00D9E15C /* YXActionSheetButton.m */; };
+		184C59701D7566CF00D9E15C /* YXCustomActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C596C1D7566CF00D9E15C /* YXCustomActionSheet.m */; };
+		184C59711D7566CF00D9E15C /* YXScrollowActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C596E1D7566CF00D9E15C /* YXScrollowActionSheet.m */; };
+		184C59741D7566DB00D9E15C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C59731D7566DB00D9E15C /* ViewController.m */; };
 		18B111841D701D7300328ED6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B111801D701D7300328ED6 /* AppDelegate.m */; };
 		18B111851D701D7300328ED6 /* DYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B111831D701D7300328ED6 /* DYRootViewController.m */; };
 		18B111971D703BF800328ED6 /* NBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B111961D703BF800328ED6 /* NBNavigationController.m */; };
@@ -197,6 +201,14 @@
 		184C59631D753DCC00D9E15C /* UIButton+countDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+countDown.m"; sourceTree = "<group>"; };
 		184C59651D755FE600D9E15C /* GXToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXToast.h; sourceTree = "<group>"; };
 		184C59661D755FE600D9E15C /* GXToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXToast.m; sourceTree = "<group>"; };
+		184C59691D7566CF00D9E15C /* YXActionSheetButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXActionSheetButton.h; sourceTree = "<group>"; };
+		184C596A1D7566CF00D9E15C /* YXActionSheetButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXActionSheetButton.m; sourceTree = "<group>"; };
+		184C596B1D7566CF00D9E15C /* YXCustomActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXCustomActionSheet.h; sourceTree = "<group>"; };
+		184C596C1D7566CF00D9E15C /* YXCustomActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXCustomActionSheet.m; sourceTree = "<group>"; };
+		184C596D1D7566CF00D9E15C /* YXScrollowActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXScrollowActionSheet.h; sourceTree = "<group>"; };
+		184C596E1D7566CF00D9E15C /* YXScrollowActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXScrollowActionSheet.m; sourceTree = "<group>"; };
+		184C59721D7566DB00D9E15C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		184C59731D7566DB00D9E15C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18B1117F1D701D7300328ED6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18B111801D701D7300328ED6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18B111821D701D7300328ED6 /* DYRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYRootViewController.h; sourceTree = "<group>"; };
@@ -591,6 +603,21 @@
 				182A93401D73E6DA007CC9DA /* UIView+Category.m */,
 			);
 			path = UIView;
+			sourceTree = "<group>";
+		};
+		184C59681D7566BD00D9E15C /* YXCustomActionSheetView */ = {
+			isa = PBXGroup;
+			children = (
+				184C59691D7566CF00D9E15C /* YXActionSheetButton.h */,
+				184C596A1D7566CF00D9E15C /* YXActionSheetButton.m */,
+				184C596B1D7566CF00D9E15C /* YXCustomActionSheet.h */,
+				184C596C1D7566CF00D9E15C /* YXCustomActionSheet.m */,
+				184C596D1D7566CF00D9E15C /* YXScrollowActionSheet.h */,
+				184C596E1D7566CF00D9E15C /* YXScrollowActionSheet.m */,
+				184C59721D7566DB00D9E15C /* ViewController.h */,
+				184C59731D7566DB00D9E15C /* ViewController.m */,
+			);
+			path = YXCustomActionSheetView;
 			sourceTree = "<group>";
 		};
 		18B1117E1D701D7300328ED6 /* AppDelegate */ = {
@@ -1098,6 +1125,7 @@
 		CC41AEF31D7184E800C1AFB4 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				184C59681D7566BD00D9E15C /* YXCustomActionSheetView */,
 				CC41AEF41D7184E800C1AFB4 /* SMPagerTabView */,
 			);
 			path = CustomView;
@@ -1353,7 +1381,9 @@
 				18B111D01D703C4500328ED6 /* UIColor+NBUIKit.m in Sources */,
 				18B111D21D703C4500328ED6 /* UIImageView+NBUIKit.m in Sources */,
 				18B112741D70415400328ED6 /* MJRefreshNormalHeader.m in Sources */,
+				184C596F1D7566CF00D9E15C /* YXActionSheetButton.m in Sources */,
 				18B112211D703ED600328ED6 /* NBTableViewItem.m in Sources */,
+				184C59701D7566CF00D9E15C /* YXCustomActionSheet.m in Sources */,
 				18B1126A1D70415400328ED6 /* MJRefreshComponent.m in Sources */,
 				181732141D73D490000A88C6 /* UIButton+LLExtension.m in Sources */,
 				18B112A91D704ADD00328ED6 /* YTKChainRequest.m in Sources */,
@@ -1382,6 +1412,7 @@
 				18B112681D70415400328ED6 /* MJRefreshAutoFooter.m in Sources */,
 				18B111CF1D703C4500328ED6 /* UIButton+NBUIKit.m in Sources */,
 				18B112D91D704C6800328ED6 /* CycleScrollView.m in Sources */,
+				184C59741D7566DB00D9E15C /* ViewController.m in Sources */,
 				18B111D91D703C4500328ED6 /* NSNotificationCenter+Eazy.m in Sources */,
 				182A93391D73E53A007CC9DA /* NSAttributedString+Category.m in Sources */,
 				18B112D81D704C6800328ED6 /* SinglePickerView.m in Sources */,
@@ -1396,6 +1427,7 @@
 				184C59641D753DCC00D9E15C /* UIButton+countDown.m in Sources */,
 				18B112191D703ED600328ED6 /* NBTextFieldCell.m in Sources */,
 				18B111CE1D703C4500328ED6 /* UIAlertView+NBUIKit.m in Sources */,
+				184C59711D7566CF00D9E15C /* YXScrollowActionSheet.m in Sources */,
 				182A93311D73E39B007CC9DA /* NSArray+Category.m in Sources */,
 				182A932A1D73DEFA007CC9DA /* UIButton+Category.m in Sources */,
 				18B1127A1D70415400328ED6 /* UIView+MJExtension.m in Sources */,
