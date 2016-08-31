@@ -136,7 +136,7 @@
     NSInteger referenceMonth =referenceComponents.month;
     NSInteger referenceDay   =referenceComponents.day;
     
-    return [NSString stringWithFormat:@"%ld年%ld月%ld日",referenceYear,(long)referenceMonth,(long)referenceDay];
+    return [NSString stringWithFormat:@"%ld年%ld月%ld日",(long)referenceYear,(long)referenceMonth,(long)referenceDay];
 }
 
 
