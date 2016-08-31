@@ -30,6 +30,7 @@
 		184C59701D7566CF00D9E15C /* YXCustomActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C596C1D7566CF00D9E15C /* YXCustomActionSheet.m */; };
 		184C59711D7566CF00D9E15C /* YXScrollowActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C596E1D7566CF00D9E15C /* YXScrollowActionSheet.m */; };
 		184C59741D7566DB00D9E15C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C59731D7566DB00D9E15C /* ViewController.m */; };
+		184C59781D75737900D9E15C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C59771D75737900D9E15C /* ViewController.m */; };
 		18B111841D701D7300328ED6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B111801D701D7300328ED6 /* AppDelegate.m */; };
 		18B111851D701D7300328ED6 /* DYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B111831D701D7300328ED6 /* DYRootViewController.m */; };
 		18B111971D703BF800328ED6 /* NBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B111961D703BF800328ED6 /* NBNavigationController.m */; };
@@ -209,6 +210,8 @@
 		184C596E1D7566CF00D9E15C /* YXScrollowActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXScrollowActionSheet.m; sourceTree = "<group>"; };
 		184C59721D7566DB00D9E15C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		184C59731D7566DB00D9E15C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		184C59761D75737900D9E15C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		184C59771D75737900D9E15C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18B1117F1D701D7300328ED6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18B111801D701D7300328ED6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18B111821D701D7300328ED6 /* DYRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYRootViewController.h; sourceTree = "<group>"; };
@@ -618,6 +621,15 @@
 				184C59731D7566DB00D9E15C /* ViewController.m */,
 			);
 			path = YXCustomActionSheetView;
+			sourceTree = "<group>";
+		};
+		184C59751D75736F00D9E15C /* ButtonMutiSelect */ = {
+			isa = PBXGroup;
+			children = (
+				184C59761D75737900D9E15C /* ViewController.h */,
+				184C59771D75737900D9E15C /* ViewController.m */,
+			);
+			path = ButtonMutiSelect;
 			sourceTree = "<group>";
 		};
 		18B1117E1D701D7300328ED6 /* AppDelegate */ = {
@@ -1125,6 +1137,7 @@
 		CC41AEF31D7184E800C1AFB4 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				184C59751D75736F00D9E15C /* ButtonMutiSelect */,
 				184C59681D7566BD00D9E15C /* YXCustomActionSheetView */,
 				CC41AEF41D7184E800C1AFB4 /* SMPagerTabView */,
 			);
@@ -1436,6 +1449,7 @@
 				18B112D51D704C6800328ED6 /* DatePickerView.m in Sources */,
 				18B111D11D703C4500328ED6 /* UIImage+NBUIKit.m in Sources */,
 				18B1121F1D703ED600328ED6 /* NBTableViewController+FDAutoLayoutCell.m in Sources */,
+				184C59781D75737900D9E15C /* ViewController.m in Sources */,
 				CC511C5A1D71B32900EF3E01 /* UIButton+touch.m in Sources */,
 				18B112791D70415400328ED6 /* UIScrollView+MJRefresh.m in Sources */,
 				18B1122A1D703F0500328ED6 /* NBBaseViewController.m in Sources */,
