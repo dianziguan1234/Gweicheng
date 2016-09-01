@@ -135,6 +135,7 @@
 		18B112DC1D704C6800328ED6 /* SegmentedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112CF1D704C6800328ED6 /* SegmentedScrollView.m */; };
 		18B112DF1D704E3100328ED6 /* UIViewController+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112DE1D704E3100328ED6 /* UIViewController+Toast.m */; };
 		18B112E51D7054C200328ED6 /* LMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B112E41D7054C200328ED6 /* LMNavigationController.m */; };
+		18D8DD901D77DE7B002E48AA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8DD8F1D77DE7B002E48AA /* Person.m */; };
 		65253CABD2CEFB668E4711A2 /* libPods-Gwc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73427A43FCDE728FD8E50E46 /* libPods-Gwc.a */; };
 		CC41AEF91D7184E800C1AFB4 /* SMPagerTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC41AEF61D7184E800C1AFB4 /* SMPagerTabView.m */; };
 		CC41AEFA1D7184E800C1AFB4 /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CC41AEF81D7184E800C1AFB4 /* UIViewAdditions.m */; };
@@ -414,6 +415,8 @@
 		18B112DE1D704E3100328ED6 /* UIViewController+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Toast.m"; sourceTree = "<group>"; };
 		18B112E31D7054C200328ED6 /* LMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNavigationController.h; sourceTree = "<group>"; };
 		18B112E41D7054C200328ED6 /* LMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNavigationController.m; sourceTree = "<group>"; };
+		18D8DD8E1D77DE7B002E48AA /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		18D8DD8F1D77DE7B002E48AA /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		73427A43FCDE728FD8E50E46 /* libPods-Gwc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Gwc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC41AEF51D7184E800C1AFB4 /* SMPagerTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPagerTabView.h; sourceTree = "<group>"; };
 		CC41AEF61D7184E800C1AFB4 /* SMPagerTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMPagerTabView.m; sourceTree = "<group>"; };
@@ -639,6 +642,8 @@
 		18B111811D701D7300328ED6 /* RootVC */ = {
 			isa = PBXGroup;
 			children = (
+				18D8DD8E1D77DE7B002E48AA /* Person.h */,
+				18D8DD8F1D77DE7B002E48AA /* Person.m */,
 				18B111821D701D7300328ED6 /* DYRootViewController.h */,
 				18B111831D701D7300328ED6 /* DYRootViewController.m */,
 			);
@@ -1451,6 +1456,7 @@
 				18B111CB1D703C4500328ED6 /* NSAttributedString+NBUIKit.m in Sources */,
 				18B111CC1D703C4500328ED6 /* NSMutableAttributedString+NBUIKit.m in Sources */,
 				18B112E51D7054C200328ED6 /* LMNavigationController.m in Sources */,
+				18D8DD901D77DE7B002E48AA /* Person.m in Sources */,
 				18B1126F1D70415400328ED6 /* MJRefreshAutoStateFooter.m in Sources */,
 				18B1123A1D70407E00328ED6 /* UIViewController+NavigationBar.m in Sources */,
 				181883991D70107B0075E42E /* main.m in Sources */,

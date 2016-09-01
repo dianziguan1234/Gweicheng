@@ -38,4 +38,14 @@
  */
 + (NSDate *)getDateWithCSharpFormat:(NSString *)iTimestamp;
 
+/**
+ *  将0时区的时间转成0时区的时间戳
+ */
++ (NSString *)transformToTimestampWithDate:(NSDate *)date;
+
+/**
+ *  将0时区的时间戳转成0时区的时间
+ */
++ (NSDate *)transformToDateWithTimestamp:(NSString *)timestamp;
+
 @end

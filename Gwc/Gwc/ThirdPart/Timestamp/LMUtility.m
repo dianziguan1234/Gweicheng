@@ -36,7 +36,7 @@
  *
  *  @param iTimestamp 接口返回的时间戳字符串 /Date(1365661065760)/
  *
- *  @return <#return value description#>
+ *  @return return value description
  */
 + (NSTimeInterval)getTimestampWithCSharpFormat:(NSString *)iTimestamp {
     if([NSString nb_isEmpty:iTimestamp]){
@@ -52,7 +52,7 @@
  *
  *  @param iTimestamp 接口返回的时间戳字符串 /Date(1365661065760)/
  *
- *  @return <#return value description#>
+ *  @return return value description
  */
 + (NSDate *)getDateWithCSharpFormat:(NSString *)iTimestamp {
     if([NSString nb_isEmpty:iTimestamp]){
@@ -61,6 +61,23 @@
     NSRange range = NSMakeRange(6, [iTimestamp length] - 8);
     iTimestamp = [iTimestamp substringWithRange:range];
     NSDate *date = [NSDate dateWithTimeIntervalSince1970:[iTimestamp longLongValue]/1000];
+    return date;
+}
+
+/**
+ *  将0时区的时间转成0时区的时间戳
+ */
++ (NSString *)transformToTimestampWithDate:(NSDate *)date {
+    NSTimeInterval inter = [date timeIntervalSince1970];
+    return [NSString stringWithFormat:@"%ld", (long)inter];
+}
+
+/**
+ *  将0时区的时间戳转成0时区的时间
+ */
++ (NSDate *)transformToDateWithTimestamp:(NSString *)timestamp {
+    NSTimeInterval inter = [timestamp doubleValue];
+    NSDate * date = [NSDate dateWithTimeIntervalSince1970:inter];
     return date;
 }
 
