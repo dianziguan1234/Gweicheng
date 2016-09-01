@@ -24,15 +24,17 @@
     Person *p =[[Person alloc] init];
     [p setValue:@"zhansan" forKey:@"name"];
     NSLog(@"%@",[p description]);
+    [self setNavRightButtonWithText:@"点击" action:@selector(click)];
     
     //确定是水平滚动，还是垂直滚动
     UICollectionViewFlowLayout *flowLayout=[[UICollectionViewFlowLayout alloc] init];
     [flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
     
     self.collectionView=[[UICollectionView alloc] initWithFrame:CGRectMake(0, 64, 320, 400) collectionViewLayout:flowLayout];
+    self.collectionView.backgroundColor =[UIColor yellowColor];
     self.collectionView.dataSource=self;
     self.collectionView.delegate=self;
-    [self.collectionView setBackgroundColor:[UIColor clearColor]];
+    //[self.collectionView setBackgroundColor:[UIColor clearColor]];
     
     //注册Cell，必须要有
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"UICollectionViewCell"];
@@ -40,6 +42,13 @@
     
 }
 
+- (void)click {
+    [UIView animateWithDuration:10 animations:^{
+        self.collectionView.backgroundColor =[UIColor clearColor];
+    } completion:^(BOOL finished) {
+        //[self.collectionView removeFromSuperview];
+    }];
+}
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     return 10;
 }
