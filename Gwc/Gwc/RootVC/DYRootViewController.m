@@ -52,6 +52,35 @@
 //    //str = [str substringFromIndex:7];
 //    NSLog(@"str = %c", [str characterAtIndex:0]);
     
+//    NSDate *senddate = [NSDate date];
+//    NSString *date2 = [NSString stringWithFormat:@"%ld", (long)[senddate timeIntervalSince1970]];
+//    NSLog(@"______%@",date2);
+    
+    NSString *testString = @"     woshiyigehaoren";
+    testString =[testString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+    //NSLog(@"testString:%@",testString);
+    DYLog(@"%@",testString);
+    
+//    NSString *str = @"/Users/NJ-Lee/Desktop/lnj.txt";
+//    if ([str isAbsolutePath]) {
+//        NSLog(@"是绝对路径");
+//    }else
+//    {
+//        NSLog(@"不是绝对路径");
+//    }
+    
+//    NSString *str = @"/Users/NJ-Lee/Desktop/lnj.txt";
+//    NSString *component = [str lastPathComponent];
+//    NSLog(@"component = %@", component);
+    
+//    NSString *str = @"/Users/NJ-Lee/Desktop/lnj.txt";
+//    NSString *newStr = [str stringByDeletingLastPathComponent];
+//    NSLog(@"newStr = %@", newStr);
+    
+    NSString *str = @"/Users/NJ-Lee/Desktop//////";
+    NSString *newStr = [str stringByAppendingPathComponent:@"lnj"];
+    NSLog(@"newStr = %@", newStr);
+    
 }
 
 - (void)click {

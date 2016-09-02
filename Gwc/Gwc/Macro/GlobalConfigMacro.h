@@ -8,6 +8,13 @@
 
 #ifndef GlobalConfigMacro_h
 #define GlobalConfigMacro_h
+
+#ifdef DEBUG
+#define DYLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+#define DYLog(...)
+#endif
+
 //强引用弱引用
 #define nbweak(s) __weak typeof(s) w_self                 = (s)
 #define nbstrong(s) __strong typeof(w_self) (s)           = w_self
