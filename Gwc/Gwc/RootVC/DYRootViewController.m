@@ -27,18 +27,30 @@
     [self setNavRightButtonWithText:@"点击" action:@selector(click)];
     
     //确定是水平滚动，还是垂直滚动
-    UICollectionViewFlowLayout *flowLayout=[[UICollectionViewFlowLayout alloc] init];
-    [flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
-    
-    self.collectionView=[[UICollectionView alloc] initWithFrame:CGRectMake(0, 64, 320, 400) collectionViewLayout:flowLayout];
-    self.collectionView.backgroundColor =[UIColor yellowColor];
-    self.collectionView.dataSource=self;
-    self.collectionView.delegate=self;
-    //[self.collectionView setBackgroundColor:[UIColor clearColor]];
-    
-    //注册Cell，必须要有
-    [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"UICollectionViewCell"];
-    [self.view addSubview:self.collectionView];
+//    UICollectionViewFlowLayout *flowLayout=[[UICollectionViewFlowLayout alloc] init];
+//    [flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
+//    
+//    self.collectionView=[[UICollectionView alloc] initWithFrame:CGRectMake(0, 64, 320, 400) collectionViewLayout:flowLayout];
+//    self.collectionView.backgroundColor =[UIColor yellowColor];
+//    self.collectionView.dataSource=self;
+//    self.collectionView.delegate=self;
+//    //[self.collectionView setBackgroundColor:[UIColor clearColor]];
+//    
+//    //注册Cell，必须要有
+//    [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"UICollectionViewCell"];
+//    [self.view addSubview:self.collectionView];
+//    NSString *str1 = @"lnj";
+//    NSString *str2 = [NSString stringWithFormat:@"lnj"];
+//    if ([str1 isEqualToString:str2]) {
+//        NSLog(@"字符串内容一样");
+//    }
+//    
+//    if (str1 == str2) {
+//        NSLog(@"字符串地址一样");
+//    }
+//    NSString *str = @"<head>小码哥</head>";
+//    //str = [str substringFromIndex:7];
+//    NSLog(@"str = %c", [str characterAtIndex:0]);
     
 }
 

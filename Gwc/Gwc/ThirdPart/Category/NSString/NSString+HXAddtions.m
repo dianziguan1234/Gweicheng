@@ -155,5 +155,21 @@
     return strDate;
 }
 
+//cacheDic目录
+- (instancetype)cacheDir {
+    NSString *dir = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject];
+    return [dir stringByAppendingPathComponent:[self lastPathComponent]];
+}
+//documents目录
+- (instancetype)docDir {
+    NSString *dir = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
+    return [dir stringByAppendingPathComponent:[self lastPathComponent]];
+}
+//tem目录
+- (instancetype)tmpDir {
+    NSString *dir = NSTemporaryDirectory();
+    return [dir stringByAppendingPathComponent:[self lastPathComponent]];
+}
+
 
 @end

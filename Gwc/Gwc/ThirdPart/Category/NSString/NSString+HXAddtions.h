@@ -35,4 +35,15 @@
 
 //通过时间戳和格式显示时间
 + (NSString *) getStringWithTimestamp:(NSTimeInterval)timestamp formatter:(NSString*)formatter;
+
+- (instancetype)cacheDir;
+/**
+ *  生成文档目录全路径
+ */
+- (instancetype)docDir;
+/**
+ *  生成临时目录全路径
+ */
+- (instancetype)tmpDir;
+
 @end
