@@ -8,10 +8,27 @@
 
 #import "Person.h"
 
+@interface Person ()
+
+@property(nonatomic,assign)int age;
+@end
+
 @implementation Person
 
 - (NSString *)description{
     //NSLog(@"%@",name);
-    return name;
+    return [NSString stringWithFormat:@"名字是:%@ 年龄是:%d",self.name,_age];
+}
+
+- (void)run {
+    DYLog(@"%s",__func__);
+}
+- (instancetype) init {
+    self=[super init];
+    if (self) {
+        self.name = @"guanweicheng";
+        _age =20;
+    }
+    return self;
 }
 @end

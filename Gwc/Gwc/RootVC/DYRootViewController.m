@@ -8,6 +8,8 @@
 
 #import "DYRootViewController.h"
 #import "Person.h"
+#import "Student.h"
+#import "NSObject+Property.h"
 @interface DYRootViewController () <UICollectionViewDelegateFlowLayout,UICollectionViewDataSource>
 
 @property (nonatomic ,strong)UICollectionView *collectionView;
@@ -21,10 +23,11 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     self.NavTitle = @"首页";
-    Person *p =[[Person alloc] init];
-    [p setValue:@"zhansan" forKey:@"name"];
-    NSLog(@"%@",[p description]);
-    [self setNavRightButtonWithText:@"点击" action:@selector(click)];
+//    Person *p =[[Person alloc] init];
+//    [p setValue:@"zhansan" forKey:@"name"];
+//    NSLog(@"%@",[p description]);
+//    [p run];
+//    [self setNavRightButtonWithText:@"点击" action:@selector(click)];
     
     //确定是水平滚动，还是垂直滚动
 //    UICollectionViewFlowLayout *flowLayout=[[UICollectionViewFlowLayout alloc] init];
@@ -48,18 +51,18 @@
 //    if (str1 == str2) {
 //        NSLog(@"字符串地址一样");
 //    }
-//    NSString *str = @"<head>小码哥</head>";
-//    //str = [str substringFromIndex:7];
-//    NSLog(@"str = %c", [str characterAtIndex:0]);
+    NSString *str = @"<head>小码哥</head>";
+    str = [str substringToIndex:10];
+    DYLog(@"%@",str);
     
 //    NSDate *senddate = [NSDate date];
 //    NSString *date2 = [NSString stringWithFormat:@"%ld", (long)[senddate timeIntervalSince1970]];
 //    NSLog(@"______%@",date2);
     
-    NSString *testString = @"     woshiyigehaoren";
-    testString =[testString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
-    //NSLog(@"testString:%@",testString);
-    DYLog(@"%@",testString);
+//    NSString *testString = @"     woshiyigehaoren";
+//    testString =[testString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+//    //NSLog(@"testString:%@",testString);
+//    DYLog(@"%@",testString);
     
 //    NSString *str = @"/Users/NJ-Lee/Desktop/lnj.txt";
 //    if ([str isAbsolutePath]) {
@@ -77,9 +80,27 @@
 //    NSString *newStr = [str stringByDeletingLastPathComponent];
 //    NSLog(@"newStr = %@", newStr);
     
-    NSString *str = @"/Users/NJ-Lee/Desktop//////";
-    NSString *newStr = [str stringByAppendingPathComponent:@"lnj"];
-    NSLog(@"newStr = %@", newStr);
+//    NSString *str = @"/Users/NJ-Lee/Desktop//////";
+//    NSString *newStr = [str stringByAppendingPathComponent:@"lnj"];
+//    NSLog(@"newStr = %@", newStr);
+//    NSArray *arr = @[@"lnj", @"lmj", @"jjj", @"xcq"];
+//    NSString *res = [arr componentsJoinedByString:@""];
+//    DYLog(@"res = %@", res);
+//    NSFileManager *manager = [NSFileManager defaultManager];
+//    NSArray *paths = [manager contentsOfDirectoryAtPath:@"/Users/apple/Desktop/" error:nil];
+//    DYLog(@"%@",paths);
+//    NSString *srcStr = @"lnj";
+//    NSString *copyStr = [srcStr mutableCopy];
+//    DYLog(@"src = %p, copy = %p", srcStr, copyStr); //p打印指针地址
+    Person *p =[[Person alloc] init];
+    DYLog(@"%@",[p description]);
+    
+    Student *ent =[[Student alloc]init];
+    ent.name =@"123";
+    DYLog(@"%@",ent.name);
+    DYLog(@"%@",[ent getAllPropertiesAndVaules]);
+    
+
     
 }
 

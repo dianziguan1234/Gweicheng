@@ -9,8 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface Person : NSObject {
-    @private
-    NSString *name;
+
+    NSString *_name;
 }
+@property(nonatomic ,copy)NSString *name;
+- (void)run;
 
 @end

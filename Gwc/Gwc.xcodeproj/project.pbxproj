@@ -30,6 +30,8 @@
 		184C59701D7566CF00D9E15C /* YXCustomActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C596C1D7566CF00D9E15C /* YXCustomActionSheet.m */; };
 		184C59711D7566CF00D9E15C /* YXScrollowActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C596E1D7566CF00D9E15C /* YXScrollowActionSheet.m */; };
 		184C59781D75737900D9E15C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C59771D75737900D9E15C /* ViewController.m */; };
+		189EA5DB1D7D747A00055956 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EA5DA1D7D747A00055956 /* Student.m */; };
+		189EA5DF1D7D7A7D00055956 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EA5DE1D7D7A7D00055956 /* NSObject+Property.m */; };
 		18B111841D701D7300328ED6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B111801D701D7300328ED6 /* AppDelegate.m */; };
 		18B111851D701D7300328ED6 /* DYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B111831D701D7300328ED6 /* DYRootViewController.m */; };
 		18B111971D703BF800328ED6 /* NBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B111961D703BF800328ED6 /* NBNavigationController.m */; };
@@ -210,6 +212,10 @@
 		184C596E1D7566CF00D9E15C /* YXScrollowActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXScrollowActionSheet.m; sourceTree = "<group>"; };
 		184C59761D75737900D9E15C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		184C59771D75737900D9E15C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		189EA5D91D7D747A00055956 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		189EA5DA1D7D747A00055956 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		189EA5DD1D7D7A7D00055956 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		189EA5DE1D7D7A7D00055956 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
 		18B1117F1D701D7300328ED6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18B111801D701D7300328ED6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18B111821D701D7300328ED6 /* DYRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYRootViewController.h; sourceTree = "<group>"; };
@@ -630,6 +636,15 @@
 			path = ButtonMutiSelect;
 			sourceTree = "<group>";
 		};
+		189EA5DC1D7D7A7D00055956 /* NSObject+Property */ = {
+			isa = PBXGroup;
+			children = (
+				189EA5DD1D7D7A7D00055956 /* NSObject+Property.h */,
+				189EA5DE1D7D7A7D00055956 /* NSObject+Property.m */,
+			);
+			path = "NSObject+Property";
+			sourceTree = "<group>";
+		};
 		18B1117E1D701D7300328ED6 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -644,6 +659,8 @@
 			children = (
 				18D8DD8E1D77DE7B002E48AA /* Person.h */,
 				18D8DD8F1D77DE7B002E48AA /* Person.m */,
+				189EA5D91D7D747A00055956 /* Student.h */,
+				189EA5DA1D7D747A00055956 /* Student.m */,
 				18B111821D701D7300328ED6 /* DYRootViewController.h */,
 				18B111831D701D7300328ED6 /* DYRootViewController.m */,
 			);
@@ -675,6 +692,7 @@
 		18B111881D701EDF00328ED6 /* ThirdPart */ = {
 			isa = PBXGroup;
 			children = (
+				189EA5DC1D7D7A7D00055956 /* NSObject+Property */,
 				CC511C561D71B30500EF3E01 /* Runtime */,
 				18B112AF1D704C6800328ED6 /* Widget */,
 				18B112931D704ADD00328ED6 /* YTKNetwork */,
@@ -1441,6 +1459,7 @@
 				18B111CE1D703C4500328ED6 /* UIAlertView+NBUIKit.m in Sources */,
 				184C59711D7566CF00D9E15C /* YXScrollowActionSheet.m in Sources */,
 				182A93311D73E39B007CC9DA /* NSArray+Category.m in Sources */,
+				189EA5DF1D7D7A7D00055956 /* NSObject+Property.m in Sources */,
 				182A932A1D73DEFA007CC9DA /* UIButton+Category.m in Sources */,
 				18B1127A1D70415400328ED6 /* UIView+MJExtension.m in Sources */,
 				18B112AB1D704ADD00328ED6 /* YTKNetworkAgent.m in Sources */,
@@ -1454,6 +1473,7 @@
 				18B1122A1D703F0500328ED6 /* NBBaseViewController.m in Sources */,
 				18B111851D701D7300328ED6 /* DYRootViewController.m in Sources */,
 				18B111CB1D703C4500328ED6 /* NSAttributedString+NBUIKit.m in Sources */,
+				189EA5DB1D7D747A00055956 /* Student.m in Sources */,
 				18B111CC1D703C4500328ED6 /* NSMutableAttributedString+NBUIKit.m in Sources */,
 				18B112E51D7054C200328ED6 /* LMNavigationController.m in Sources */,
 				18D8DD901D77DE7B002E48AA /* Person.m in Sources */,
